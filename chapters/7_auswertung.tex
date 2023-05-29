@@ -1,0 +1,161 @@
+%************AUSWERTUNG****************
+\section{Auswertung}
+\label{sec:auswertung}
+Die Auswertung wird mit der Skriptingsprache \verb|Python| \cite{PYTHON} erstellt.
+In der gesamten Auswertung werden die Python Libraries, \verb|numpy| \cite{harris2020array}, \verb|pandas| \cite{reback2020pandas}, \verb|scipy| \cite{2020SciPy-NMeth} und \verb|matplotlib| \cite{Hunter:2007}, für statistische Rechenoperationen, das Einlesen und Verarbeiten von Daten sowie das Erstellen von Plots verwendet.
+Genaue Funktionsnamen, die zur Berechnung von Messgrößen oder Fit-Parametern verwendet werden, sind in der weiteren Auswertung angegeben.
+Des weiteren wird die Library \verb|uncertainties| \cite{UN} für jegliche Unsicherheitsfortpflanzungen (wenn nicht anders angegeben) benutzt, da diese auf dem Prinzip der Größtunsicherheitsmethode Gl. \ref{equ:groestunsicherheit} basiert.
+
+
+\subsection{Young'scher Doppelspalt, Beugungsgitter}
+Da die Aufnahmen aus Abb.\ref{fig:interf_muster} der Beugungsmuster eine Perspektivenverzerrung aufweisen wird diese vorerst mit der Software FIJI (Plugin "Transform -> Interactive Perspective") korrigiert.
+Dabei orientiert man sich an einem Äquidistanten Gitter, welches über das Bild gelegt wird und korrigiert durch verzerren von 4 Punkten am Bild.
+Die korrigierten Bilder mit vergleichsgitter sind in Abb.\ref{fig:interf_muster_corr_grid} zu sehen.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{double_slit_muster1_corr_grid.jpg}
+        \caption{}
+        \label{fig:double_slit_muster1_corr_grid}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{double_slit_muster2_corr_grid.jpg}
+        \caption{}
+        \label{fig:double_slit_muster2_corr_grid}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{double_slit_muster3_corr_grid.jpg}
+        \caption{}
+        \label{fig:double_slit_muster3_corr_grid}
+    \end{subfigure}%
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{double_slit_muster4_corr_grid.jpg}
+        \caption{}
+        \label{fig:double_slit_muster4_corr_grid}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{gitter_muster_corr_grid.jpg}
+        \caption{}
+        \label{fig:gitter_muster_corr_grid}
+    \end{subfigure}
+
+    \caption{
+        Perspektivenkorrigierte Aufnahmen der Interferenzmuster mit eingezeichnetem Vergleichsgitter.
+        \ref{fig:double_slit_muster1_corr_grid}: Doppelspalt 1; 
+        \ref{fig:double_slit_muster2_corr_grid}: Doppelspalt 2; 
+        \ref{fig:double_slit_muster3_corr_grid}: Doppelspalt 3; 
+        \ref{fig:double_slit_muster4_corr_grid}: Doppelspalt 4; 
+        \ref{fig:gitter_muster_corr_grid}: Gitter.
+    }
+    \label{fig:interf_muster_corr_grid}
+\end{figure}
+An den korrigierten Aufnahmen werden dann mit der PIL(Python Image Library) die Pixel in ihren RGB CHannel Werten gefilter, so dass nur Pixel mit Wertigkeit größer als 160 überbleiben.
+Dies ist nötig um ein gutes Interferenzsignal zu erhalten.
+Danach wird aus jedem Bild nur der Bereich ausgeschnitten in dem das Interferenzmuster zu sehen ist.
+Die Ausgeschnittenen Bereiche sind in Abb.\ref{fig:yng_cutouts} zu sehen.
+\monofig{width=0.7\textwidth}{yng_cutouts.pdf}{
+    Ausschnitte der RGB gefilterten Aufnahmen.
+    Von Oben nach unten für die Doppelspalte 1 bis 4 und für das Beugungsgitter.
+}{fig:yng_cutouts}
+Um die eindimensionalen Interferenzmuster zu erhalten werden die Ausschnitte aus Abb.\ref{fig:yng_cutouts} in Grauwert Bilder umgewandelt, ihre Pixelwerte über alle Reihen summiert und dann auf den Maximalwert normiert.
+Um die räumliche Auflösung des Interferenzmusters zu erhalten wird an den Bildern abgezählt wie viele Kästchen in horizontaler Richtung des Referenzgitters am Bild sind, da die Breite dieser Kästchen mit $d_K$ = 5 mm genau bekannt ist.
+Die Interferenzmuster der Doppelspalte werden dann nach Gl.\ref{eq:gru:Int-mult}, Gl.\ref{eq:gru:Int} und Gl.\ref{eq:gru:Beug} mit Spaltparametern $a_i$ und $b_i$ gefittet um die Wellenlänge des Lasers zu erhalten.
+Das Interferenzmuster des Gitters Wird nach Gl.\ref{eq:ausw:gitter} mit $\lambda$ = 532 nm, Schirmabstand $z$ aus Kap.\ref{sec:durch:yng} und einer geschätzten beleuchteten Spaltanzahl $N$ = 7 gefittet um den Spaltabstand $b$ zu erhalten.
+\begin{equation}
+    I_{G,th}(x) = \frac{sin^2\left(N \frac{\pi b x}{\lambda z}\right)}{N^2 sin^2\left(\frac{\pi b x}{\lambda z}\right)}
+    \label{eq:ausw:gitter}
+\end{equation}
+Die erhaltenen Interferenzmuster und Fitfunktionen sind in Abb.\ref{fig:yng_fits} zu sehen.
+Die erhaltenen Fitparameter sind in Tab.\ref{tab:yng-Werte} gelistet
+\monofig{width=0.7\textwidth}{yng_fits.pdf}{
+    Interferenzmuster und deren Fitfunktionen.
+    Von Oben nach unten für die Doppelspalte 1 bis 4 und für das Beugungsgitter.
+}{fig:yng_fits}
+\begin{table}[H]
+    \centering
+    \caption{
+        Ermittelte Fitparameter der Interferenzmuster
+    }
+    \begin{tabular}{cc} \hline
+        Bezeichnung & Wert \\ \hline
+        $\lambda_{S1}$  & (552 $\pm$ 13) nm \\ \hline
+        $\lambda_{S2}$  & (536 $\pm$ 6 ) nm\\ \hline
+        $\lambda_{S3}$  & (528 $\pm$ 3 ) nm\\ \hline
+        $\lambda_{S4}$  & (524 $\pm$ 1 ) nm\\ \hline
+        $b$  & (125.73 $\pm$ 0.03) $\mu$m \\ \hline
+    \end{tabular}
+    \label{tab:yng-Werte}
+\end{table}
+
+\subsection{Gesetz von Malus}
+Die bestimmten Winkel $\beta_1$ und $\beta_2$ bei der maximalen Lichtintensität entsprechen effiktiv einen Winkelversatz der Polarisationsebenen von 0°.
+Der Differenzwinkel $\alpha$ ergibt sich zu:
+\begin{equation}
+    \alpha_i = |\beta_{1,i}- \beta_{1,0}|
+\end{equation}
+Trägt man nun die Intensität gegen den Winkel $\alpha$ auf kommt das Gesetz von Malus zu Vorschein. Dabei ist sichtbar das einen trigometrischen Verlauf hat.
+\monofig{width=0.8\textwidth}{Polar_errobars.png}{Gegenüberstellung der aufgenommenen Datenpunkte zu theoretischen Kurve}{fig:malus}
+In Abbildung \ref{fig:malus} ist sichtbar , dass es eine relativ große Diskrepanz zwischen Theorie und Messwert gibt. 
+Dies ist vermutlich auf die Polarisation des Lasers zurückzuführen.
+Bei der Durchführung des Experiments wurde fälschlicherweise angenommen, dass die Wahl des zu drehenden Polarisators keinen Unterschied macht und nur der Differenzwinkel wichtig ist.
+Wird unpolarisiertes Licht als Quelle benutzt, ist dies auch der Fall, doch im Falle des Lasers wird polarisiertes Licht emittiert.
+Der Laser ist vermutlich leicht elliptisch polarisiert und hat eine Richtung,in dem das elektrische Feld eine höhere Amplitude hat.
+Verdreht man nun den ersten Polarisator, kommt es zu einer Reduktion der Intensität durch die sich verändernde Amplitude des E-Felds und zusätzlich durch den Differenzwinkel zum zweiten Polarisator.
+Das bedeutet, dass die Intensität $I_0$ auch von $\alpha$ abhängt.
+Da die Polarisatoren früher so eingestellt worden sind, dass die Lichtintensität maximal ist, kann angenommen werden, dass hier die maximale Auslenkung des E-felds liegt.
+Die elliptische Auslenkung des E-Feldes kann mittels einer Kurve modeliert werden $\vec{E} \propto  (a \cdot \cos(\alpha), b \cdot \sin(\alpha) )$.
+Der Quadrat des Abstandes der Kurve zum Mittelpunkt sollte proportional zur Intensität sein ($I_0(\alpha) \propto |\vec{E}|^2$).
+\begin{equation}
+    I_0(\alpha) = I_0 \cdot ((a\cos(\alpha))^2 + (b\sin(\alpha))^2)
+\end{equation}
+Wendet man nun die Korrektur auf die Ausgangsgleichung \ref{eq:malus} an, erhält man:
+\begin{equation}
+    I(\alpha) = I_0 \cdot ((a\cos(\alpha))^2 + (b\sin(\alpha))^2)\cdot \cos^2(\alpha)
+\end{equation}
+Fittet man nun die Parameter $a$ und $b$ kann man die Polarisierung ausgleichen.
+Zusätzlich wurde aus dem Datenblatt des Lasers erhoben,dass die PER (Polarization extinction ratio ) 5 dB ist.
+Nun kann mittels Gl. \ref{eq:per}  (siehe \cite{PER}) das Verhätniss der Leistung der elektromagnetischen Welle in den beiden Halbachsen der Ellipse gefunden werden.
+\begin{equation}
+    \frac{a}{b} = \frac{P_{max}}{P_{min}} = 10^{\frac{\text{PER}}{10}} = 3.162
+    \label{eq:per}
+\end{equation}
+
+Es wurde nun auch die Korrektur mittels den bekannten Polarisationskonstanten  des Lasers durchgeführt.
+Dabei wird $a =1$ und $b = 1/3.162$ angenommen, da wir den ersten Polaristator auf die große Halbachse der Polarisationellipse des Lasers ausgerichtet haben.
+Das modifizierte Gesetz von Malus lautet in diesem Fall :
+\begin{equation}
+    I(\alpha) = I_0  \biggl( \cos^2(\alpha) + \biggl( \frac{\sin(\alpha)}{3.162} \biggr)^2 \biggr) \cdot \cos^2(\alpha)
+\end{equation}
+\monofig{width=0.8\textwidth}{Polar_korrektur3.png}{Korrektur der ursprünglichen Gleichung durch Fit und den erhobenen Parameter des Lasers}{fig:korr}
+Die Koeffizienten a und b ergeben sich zu: 
+\begin{align}
+    a &= 0.97 \\
+    b &= 0.47 \\
+    \frac{a}{b} &= 2.1
+    \label{eq:ab}
+\end{align}
+
+\subsection{Michelson-Interferometer}
+Mit den Messdaten aus Tab.\ref{tab:inter_konz} werden nach Gl.\ref{eq:ausw:hebel} die wirklichen Längenänderungen des Interferometerarms $\Delta x'$ berechnet, da am Spiegel C ein Hebel angebaut ist.
+\begin{equation}
+    \Delta x' = \frac{\Delta x}{5.3}
+    \label{eq:ausw:hebel} 
+\end{equation}
+Weiters wird dann über Gl.\ref{eq:ausw:lamb} die Wellenlänge des Lasers bestimmt.
+\begin{equation}
+    \lambda = \frac{2\Delta x'}{N}
+    \label{eq:ausw:lamb} 
+\end{equation}
+Die berechneten Wellenlängen mit Unsicherheit sind in Tab.\ref{tab:ausw:michelson} gelistet
+\begin{table}[H]
+    \centering
+    \caption{
+        Ermittelte Wellenlängen durch Michelson Interferometer.
+    }
+    \begin{tabular}{cc} \hline
+        Bezeichnung & Wert \\ \hline
+        $\lambda_{1}$  & (600 $\pm$ 50) nm \\ \hline
+        $\lambda_{2}$  & (528 $\pm$ 30 ) nm\\ \hline
+    \end{tabular}
+    \label{tab:ausw:michelson}
+\end{table}
