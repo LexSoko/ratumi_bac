@@ -1,74 +1,20 @@
 %********VORAUSSETZUNGEN & GRUNDLAGEN*********
-\section{Voraussetzung \& Grundlagen}
-\label{sec:voraussetzungen-grundlagen}
-\subsection*{Vorwort}
-Die in den Grundlagen verwendeten Informationen sowie Gleichungen wurden, falls nicht anders referenziert, aus der Vorbereitungs-PDF \cite{LAB} entnommen.
+\chapter{Fundumentals}
+\label{sec:Fundumentals}
+\section{STM-Imaging}
+The Scanning Tunneling Microscope was introduced in 1981 by Gerd Binning and Heinrich Roherer. 
+With this measuring technique it is possible to resolve a conductive surface with a precission beyond that of conventional light based Microscopes.
+In contrast to other electron based microscopy like Scanning Electron Microscopes (SEM) it uses the quantum mechanical phenomenon of tunneling.
+In classical mechanics, objects cannot overcome a potential if their energy $E < V_0$, as observed in gravitational interactions.
+This phenomenon is observed for quantum mechanical particles like electrons, which can surpass a potential barrier despite the initial expectation that they should not be able to.
+The STM uses this effect by precisely positioning a sharp conductive tip close to the surface and applying a bias voltage.
+Most STM are operated in Ultra-High-Vacuum (UHV), where the distance between the tip and the surface represents the tunneling barrier.
+By varying the bias voltage, the tunneling probability can be changed, thereby affecting the tunneling current.
+If the bias voltage, also referred to as the potential difference, is kept constant, the tunneling current is primarily dependent on the distance between tip and surface.
+The tip is moved in the x-,y-plane where a grid is established. 
+There are two modes of operation, the constant-height and the constant-current mode.
+The latter is especially useful for irregular surfaces, because the tip is moved up and down to keep the tunneling current constant.
+The movement signal of the piezos is then converted into height.
+In constant-height mode the position of the tip stayes fixed and the tunneling current $I_t$ is measured and converted into height information. 
 
-\subsection{Young'scher Doppelspalt, Beugungsgitter}
-Beim Young'schen Doppelspalt (eines der wohl bekanntesten Experimente der Physik) wird eine kohärente Lichtquelle auf einen Doppelspalt geleuchtet (siehe Abb.\ref{fig:gru-doppel-skizz}) um nach dem Schirm ein Interferenzmuster zu erhalten (siehe Abb.\ref{fig:gru-doppel-must}).
-Dieses Interferenzmuster $I(x)$ setzt sich nach Gl.\ref{eq:gru:Int-mult} multiplikativ aus dem Interferenzmuster zweier infinitesimal dünner Spalten $I_{I}(x)$ und dem Beugungsmuster eines räumlich ausgedehnten Einzelspalts $I_{B}(x)$ zusammen.
-Das Interferenzmuster $I_{I}(x)$ wird in erster Näherung durch Gl.\ref{eq:gru:Int} und das Beugungsmuster $I_{B}(x)$ durch Gl.\ref{eq:gru:Beug} beschrieben.
-\begin{equation}
-    I(x) = I_{I}(x) \cdot I_{B}(x)
-    \label{eq:gru:Int-mult}
-\end{equation}
-\begin{multicols}{2}
-    \begin{equation}
-        I_{I}(x) = I_0 \left(1 + cos\left(\frac{2\pi x a}{\lambda z}\right)\right)
-        \label{eq:gru:Int}
-    \end{equation}\break
-    \begin{equation}
-        I_{B}(x) = \frac{sin^2\left(\pi x b / \lambda z \right)}{\left(\pi x b / \lambda z \right)^2}
-        \label{eq:gru:Beug}
-    \end{equation}
-\end{multicols}
-In den Gleichungen bezeichnet $x$ den Abstand zur Optischen Achse am Schirm, $a$ den Spaltabstant, $\lambda$ die Wellenlänge der Lichtquelle, $z$ die Entfernung zwischen Doppelspalt und Schirm und $b$ die breite der Spalten.
-Die drei Gleichungen sind aus \cite{LAB} entnommen worden.
-\polyfig{Double-slit_schematic.png}{
-    Schematische Skizze eines Doppelspalts mit Abmessungen für genannte Gleichungen. Entnommen aus \cite{Doppelspalt}.
-}{fig:gru-doppel-must}{Slit_double_skizz.png}{
-    Theoretisches Interferenzmuster am Schirm in rot und in schwarz theoretisches Beugungsmuster eines Einzelspalts. Entnommen aus \cite{Doppelspalt}.
-}{fig:gru-doppel-skizz}
-
-\subsection{Polarisations-Analyse}
-Im Falle linear polarisierten Lichts lässt sich die transmittierte Intensität durch einen Polarisator mit der Durchlassrichtung entlang der durch den Winkel Null definierten Richtung mithilfe des Gesetzes von Malus berechnen:
-\begin{equation}
-    I(\alpha) = I_0 \cos^2(\alpha)
-    \label{eq:malus}
-\end{equation}
-Hierbei steht $I(\alpha)$ für die transmittierte Intensität, $I_0$ für die Intensität des einfallenden Lichts und $\alpha$ für den Winkel zwischen der Durchlassrichtung des Polarisators und der Polarisationsebene des einfallenden Lichts.
-Die nicht transmittierte Intensität wird je nach Art des Polarisators entweder absorbiert oder reflektiert.
-Die Polarisation des Lichts ist von großer Bedeutung für dessen Interferenzfähigkeit. 
-Dabei gelten die vier Gesetze nach Fresnel und Arago. 
-Wenn Lichtstrahlen in dieselbe Richtung linear polarisiert sind, interferieren sie wie nicht polarisiertes Licht. 
-Senkrecht zueinander polarisierte Lichtstrahlen interferieren nicht, es sei denn, sie waren ursprünglich in derselben Polarisationsebene und werden wieder in diese zurückgeführt. 
-Wenn senkrecht zueinander polarisierte Lichtstrahlen in dieselbe Polarisationsebene zurückgeführt werden, die sie ursprünglich nicht besaßen, interferieren sie nicht. 
-Diese Gesetze lassen sich beispielsweise anhand des Michelson-Interferometers untersuchen.
-
-\subsection{Michelson Interferometer}
-Ein Michelson-Interferometer ist ein optisches Instrument, das verwendet wird, um Interferenzmuster von Lichtwellen zu erzeugen. 
-Der Strahlengang des Michelson-Interferometers besteht aus einer Laserquelle, einem Strahlteiler, zwei Spiegeln und einem Schirm. 
-Der Strahlteiler teilt den Lichtstrahl in zwei Teilstrahlen auf, die durch die beiden Interferometerarme mit unterschiedlichen Längen reflektiert werden. 
-Die beiden Teilstrahlen werden am Strahlteiler wieder vereint und interferieren am Schirm, wobei das Interferenzmuster von der Phasendifferenz zwischen den beiden Lichtstrahlen abhängt. 
-Die Phasendifferenz ist proportional zum Unterschied der Weglängen $\Delta s$, den die beiden Teilstrahlen zurücklegen.
-\begin{equation}
-    \Delta \phi = \frac{2 \pi}{\lambda} \Delta s
-\end{equation}
-Das Interferenzmuster am Schirm wird durch kleine Änderungen in der Richtung des einfallenden Laserstrahls und in der Ausrichtung der Spiegel beeinflusst.
-Verwendet man einen Laser als Lichtquelle ist am Schirm aber nur ein kleiner Teil des Beugungsmusteres zu sehen und damit auch die kleinen Änderungen schwer zu erfassen.
-Um einen größeren Bereich des Musters abzubilden, wird der Strahl durch eine Linse aufgeweitet.
-Dies führt entweder zu einem konzentrischen Interferenzmuster (Linse vor dem Michelson Interferometer) oder zu parallelen Interferenzstreifen (Linse nach dem Michelson Interferometer), je nachdem wo die Linse positioniert ist. 
-Die Interferometerarme können auf die gleiche Länge justiert werden, indem man divergierende Strahlen auf virtuelle Lichtquellen zurückführt und die Größe des zentralen Interferenzspots maximiert. 
-Eine breitbandige Lichtquelle mit geringer Kohärenzlänge kann auch verwendet werden, um die Interferometerarme einzustellen, wobei die Kohärenzlänge durch Bandpassfilter erhöht werden kann.
-Es ist interessant zu beobachten, dass das Interferometer zwei "Ausgänge" hat und dass bei destruktiver Interferenz im Detektorarm die Energie der Lichtwellen nicht verloren geht, sondern am Ausgang zum Laser konstruktive Interferenz auftritt.
-
-\subsection{Unsicherheitsanalyse}
-\label{sec:unsichi}
-Im gesamten Protokoll, sofern nicht anders angegeben, wird die Größtunsicherheitsmethode laut Gl.\ref{equ:groestunsicherheit} \cite{MMETH} für alle Fehlerrechnungen benutzt.
-Hierzu wird das totale Differential der ausgehenden Gleichung gebildet und die Absolutbeträge der Summanden mit der ermittelten Unsicherheit multipliziert.
-Alle statistischen Auswertungen werden mit einer statistischen Unsicherheit laut der Studentschen t-Verteilung behaftet.
-\begin{equation}
-    \varDelta f = \biggl| \frac{\partial f}{\partial x_{1}} \cdot \varDelta x_{1} \biggl| + \biggl| \frac{\partial f}{\partial x_{2}} \cdot \varDelta x_{2} \biggl| + .... + \biggl| \frac{\partial f}{\partial x_{n}} \cdot \varDelta x_{n} \biggl|
-    \label{equ:groestunsicherheit}
-\end{equation}
 \newpage

@@ -1,17 +1,35 @@
 %---------------DOCUMENT SETTINGS------------------------------------
 %\documentclass[headheight=30pt]{scrartcl}
-\documentclass{article}
+\documentclass[
+    paper=A4,					% paper size --> A4 is default in Germany
+    twoside=true,				% onesite or twoside printing
+    openright,					% doublepage cleaning ends up right side
+    parskip=full,				% spacing value / method for paragraphs
+    chapterprefix=true,			% prefix for chapter marks
+    11pt,						% font size
+    headings=normal,			% size of headings
+    bibliography=totoc,			% include bib in toc
+    listof=totoc,				% include listof entries in toc
+    titlepage=on,				% own page for each title page
+    captions=tableabove,		% display table captions above the float env
+    draft=false,
+]{scrreprt}
+%packages from the uni graz bachelor thesis
+%\usepackage{cleanthesis}
+
+
+\usepackage[english]{babel} % babel system, adjust the language of the content
 
 \usepackage[utf8]{inputenc} % utf8x durch utf8 ersetzt wegen biblatex
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,amstext,amsfonts}
-\usepackage[ngerman]{babel}
+
 \usepackage{csquotes}
 \usepackage{pdfpages} %zum importieren des Deckblattes
 \usepackage{geometry}
 \usepackage[headsepline]{scrlayer-scrpage}
 \usepackage{lastpage}
-\usepackage[style=numeric]{biblatex} %Literaturverwaltung
+%\usepackage[style=numeric]{biblatex} %Literaturverwaltung
 \usepackage{tabularx} %für die Legende im Gruundlagen Oszi Bild
 \usepackage{tabulary}
 \usepackage{float}
@@ -30,15 +48,15 @@
 \usepackage{subcaption}
 
 
-\geometry{      %holt mehr aus einer A4 Seite raus
-    a4paper,
-    total={170mm,257mm},
-    left=20mm,
-    top=25mm,
-   }
+%\geometry{      %holt mehr aus einer A4 Seite raus
+%    a4paper,
+%    total={170mm,257mm},
+%    left=20mm,
+%    top=25mm,
+%   }
 \graphicspath{ {./graphics/} }  %pfad für bilder
 \hypersetup{colorlinks=false}
-\addbibresource{literatur.bib} %Literatur-Resourcen\s
+%\addbibresource{literatur.bib} %Literatur-Resourcen\s
 %\setlength{\headheight}{0.0pt} % macht zwar headheight warnings aber dafür nutz latex die seitengröße besser aus.
 \pagestyle{scrheadings}
 \newcommand{\subf}[2]{
@@ -165,31 +183,42 @@
     \end{figure}
 }
 \date{\today{}, Location}
-\author{Aleksey Sokolov, Max Jost}
-\title{Interferenz und Polarisation}
+\author{}
+\title{}
 
 %---------------HEADER TEXT------------------------------------
 \clearpairofpagestyles
 \ihead{\today{} \\ }
-\chead{Max Jost / Aleksey Sokolov\\ Interferenz und Polarisation }
+\chead{Aleksey Sokolov}
 \ohead{FPTP 2 \\ }
 \cfoot{\pagemark \, / \, \pageref{LastPage}}
 
+% Custom page style for chapter opening pages
+\newpairofpagestyles{chapteropening}{%
+    \cfoot{\pagemark \, / \, \pageref{LastPage}} % Display chapter name and page number
+}
+
+% Modify the chapter command to use the custom page style
+\renewcommand*{\chapterpagestyle}{chapteropening}
+
+
 %---------------DOCUMENT TEXT------------------------------------
 \begin{document}
-\includepdf[]{Deckblatt.pdf} %Insert title page NaWi-Graz
+%\includepdf[]{Deckblatt.pdf} %Insert title page NaWi-Graz
+
+
+\input{chapters/1_abstract}
 \tableofcontents
 \newpage
-
-%\input{chapters/1_anmerkung}
-\input{chapters/2_aufgabenstellung}
+\input{chapters/2_introduction.tex}
 \input{chapters/3_grundlagen}
-\input{chapters/4_versuchsanordnung}
-\input{chapters/5_geraeteliste}
+%\input{chapters/4_versuchsanordnung}
+%\input{chapters/5_geraeteliste}
 \input{chapters/6_versuchsdurchfuehrung}
 \input{chapters/7_auswertung}
 \input{chapters/8_diskussion}
 
 
-\printbibliography
+\bibliography{literatur.bib}
+\bibliographystyle{seminarstyle}
 \end{document}
