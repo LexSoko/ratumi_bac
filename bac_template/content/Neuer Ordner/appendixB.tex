@@ -1,0 +1,253 @@
+\chapter{Example for the presentation of programming code \label{chap:appendixCode}}
+
+%In this section the code developed for this work is presented. Mention here the general dependencies you used in your development environment.
+%\systemDependencies{}
+
+\section{System dependencies \label{sec:SystemDependencies}}
+The presented code is written for Python 3.7. 
+\Table{tab:PyModules} details the used standard and specialized python packages and modules and is structured as follows. 
+\begin{itemize}
+\item The package and module names are listed in the first column. Specialized modules are preceeded with the abbreviation of the parent package, whose abbreviated package name is inidacted in brackets.
+
+\item The version number of the used library is indicate in the second column.
+
+\item A brief module description is provided in the third column. 
+%
+\end{itemize}
+The top panel reports the standard python packages, contained in the standard python distribution. The bottom panel lists specialized packages, which require individual download. 
+(Modified table based on Table A.1 from Rafael Goldgruber's Bachelor thesis).
+
+
+\begin{table}[h!]
+  %{\centering
+  \vspace{3mm}
+  \tabcolsep=8pt
+  \caption{Required Python modules for the presented code.}
+    \begin{tabular}{p{0.2\textwidth}
+                    p{0.1\textwidth}
+                    p{0.6\textwidth}}
+    \hline\hline
+    Package / Module & Version & Modul Description\\
+    \hline
+    math  & $-$ & Access mathematical functions; \\
+    os    & $-$    & Miscellaneous 
+    operating system interfaces  \\
+    glob & $-$ & Creates iterable lists from folder content \\
+
+    matplotlib &  3.3.1 & Core package for scientific computation \& plotting \\
+    numpy & 1.19.1 & Core package for numerical computing \\
+
+    \hline
+    astropy (ap) & 4.0.1 & Community Python Library for Astronomy  \\
+    \textit{~~ap}.astroquery & 0.4   & Querying astronomical web databases \\
+    \textit{~~ap}.vizier & 0.4   & Importing online data and catalogues, published along with papers \\
+    \textit{~~ap}.io.pyfits & & Reading and operating with FITS files \\
+    mesareader & $-$ & Reading MESA history and profile output files\\
+    %datetime & $-$ & supplies classes for manipulating dates and times  \\
+    %jdcal &  1.4.1 & functions for converting between Julian dates and calendar dates \\
+    %PIL   & $-$   & Python Imaging Library  \\
+    %unicodedata & $-$  & access to the Unicode CharacterDatabase\\
+    \hline
+    \end{tabular}
+  \label{tab:PyModules}
+  
+%\tablefoot{ }  
+\end{table}
+
+\section{Program to name new Planets \label{cod:HellowWorld}}
+
+Provide a short description of the following script and give a brief description of the key settings or input format. The example below shows how to insert the code of a whole program from its source file.
+
+\lstinputlisting[label=code:sampleCode, 
+frame=Tb,
+caption= HelloPlanet.py: Sophisticated code to name new worlds.,
+language=python]{code/helloWorld.py}
+
+
+\vspace{5mm}
+\begin{table}[h!]
+    \caption{Option menu for helloWorld.py (\Listing{code:sampleCode}), \label{cod:helloWorld}}
+
+    %\centering
+    \hfill\begin{tabular}{p{0.15\textwidth}p{0.15\textwidth}p{0.6\textwidth}}
+    \hline\hline
+    Type     & Argument &  Functionality \\ \hline
+    InCode    & if \hbox{xY==True} & Description of what will happen if this option is used. \\
+    CmdL    & -n & Description of what will happen if this option is used. \\
+    ReqIn    & parameter name & Description of what will happen if this option is used. \\
+    \hline
+    \end{tabular}\hfill~
+    
+    \tablefoot{Usage options: 
+    \textit{InCode} curial options to be set inside the code before excecution of the program,
+    \textit{CmdL} options set in the command line, 
+    \textit{ReqIn} requested user input during the execution of the program;
+    }
+    \label{tab:functionalityTable}
+\end{table}
+
+\section{Example for long code listing \label{chap:appendixMesaInlists}}
+
+This section presents styles to present longer code snippets. To save printing space and cost, these are typset in a two-column format. 
+
+The combined presentation of \Listing{code:inlist1} and \Listing{code:inlist2} show how two snippets can be shown. \Listing{code:longListing} depicts how long code snippets or full programs can be included as multi-column and multi-page element.
+
+Also for these listings a preamble stating the system requirements is needed.
+
+
+\begin{landscape}
+\begin{multicols}{2}
+\begin{lstlisting}[caption=inlist1 \label{code:inlist1}]
+&star_job
+      show_log_description_at_start = .true.
+      pgstar_flag = .true.
+/ ! end of star_job namelist
+
+&controls
+      extra_terminal_output_file = 'log1' 
+      log_directory = 'LOGS1'
+/ ! end of controls namelist
+
+&pgstar
+      History_Panels1_win_flag = .true.
+      History_Panels1_win_width = 5
+      History_Panels1_win_aspect_ratio = 1.0 
+      
+      History_Panels1_title = 'Orbital evolution'
+      History_Panels1_num_panels = 2
+      
+      History_Panels1_yaxis_name(1) = 'period_days'
+      History_Panels1_other_yaxis_name(1) = 
+      'lg_mstar_dot_1' 
+      History_Panels1_yaxis_name(2) = 'Jdot' 
+      History_Panels1_other_yaxis_name(2) = 
+      'binary_separation' 
+/ ! end of pgstar namelist
+
+\end{lstlisting}
+%##########################################################################
+\begin{lstlisting}[caption=inlist2 \label{code:inlist2}]
+&star_job
+      show_log_description_at_start = .false.
+
+/ ! end of star_job namelist
+
+&controls
+      extra_terminal_output_file = 'log2' 
+      log_directory = 'LOGS2'
+/ ! end of controls namelist
+
+&pgstar
+
+
+
+
+
+
+
+
+
+
+
+
+
+/ ! end of pgstar namelist
+\end{lstlisting}
+\end{multicols}
+%\tablefoot{}
+% \end{table*}
+\end{landscape}
+
+
+\begin{landscape}
+
+\begin{lstlisting}[language=Fortran,
+caption = Example for a multi-column and multi-page code listing. 
+\label{code:longListing},frame=T]
+\end{lstlisting} 
+\begin{lstlisting}[language=Fortran,multicols=2,frame=none]
+! inlist to evolve a 15 solar mass star
+
+! For the sake of future readers of this file,
+! ONLY include the controls you are actually using. 
+! DO NOT include all of the other controls that 
+! simply have their default values.
+
+&star_job
+
+  ! begin with a pre-main sequence model
+    create_pre_main_sequence_model = .true.
+
+  ! save a model at the end of the run
+    save_model_when_terminate = .false.
+    save_model_filename = '15M_at_TAMS.mod'
+
+  ! display on-screen plots
+    pgstar_flag = .true.
+
+/ !end of star_job namelist
+
+
+&controls
+
+  ! starting specifications
+    initial_mass = 15 ! in Msun units
+
+  ! options for energy conservation 
+     use_dedt_form_of_energy_eqn = .true.
+     use_gold_tolerances = .true.
+
+  ! stop when the star nears ZAMS (Lnuc/L > 0.99)
+    Lnuc_div_L_zams_limit = 0.99d0
+    stop_near_zams = .true.
+
+  ! stop when the center mass fraction
+  of h1 drops below this limit
+    xa_central_lower_limit_species(1) = 'h1'
+    xa_central_lower_limit(1) = 1d-3
+
+/ ! end of controls namelist
+
+&pgstar
+
+  ! MESA uses PGPLOT for live plotting and 
+  ! gives the user a tremendous amount of control 
+  ! of the presentation of the information.
+
+  ! show HR diagram
+  ! this plots the history of L,Teff over many 
+  ! timesteps
+    HR_win_flag = .true.
+
+  ! set static plot bounds
+    HR_logT_min = 3.5
+    HR_logT_max = 4.6
+    HR_logL_min = 2.0
+    HR_logL_max = 6.0
+
+  ! set window size (aspect_ratio = height/width)
+    HR_win_width = 6
+    HR_win_aspect_ratio = 1.0
+
+
+  ! show temperature/density profile
+  ! this plots the internal structure at single 
+  ! timestep
+    TRho_Profile_win_flag = .true.
+
+  ! add legend explaining colors
+    show_TRho_Profile_legend = .true.
+
+  ! display numerical info about the star
+    show_TRho_Profile_text_info = .true.
+
+  ! set window size (aspect_ratio = height/width)
+    TRho_Profile_win_width = 8
+    TRho_Profile_win_aspect_ratio = 0.75
+
+/ ! end of pgstar namelist
+\end{lstlisting} 
+\vspace{-\baselineskip}
+\noindent\rule{\linewidth}{0.4pt}
+
+\end{landscape}

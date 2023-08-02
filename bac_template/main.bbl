@@ -1,0 +1,262 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{cbai}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6642209ba462567936c71432c1fd0003}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Chunli},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c79e6794d92b660604601937a9b1c766}{%
+           family={Springer},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Shanghai Scientific}%
+        {Technical Publishers}%
+      }
+      \strng{namehash}{6642209ba462567936c71432c1fd0003}
+      \strng{fullhash}{6642209ba462567936c71432c1fd0003}
+      \strng{bibnamehash}{6642209ba462567936c71432c1fd0003}
+      \strng{authorbibnamehash}{6642209ba462567936c71432c1fd0003}
+      \strng{authornamehash}{6642209ba462567936c71432c1fd0003}
+      \strng{authorfullhash}{6642209ba462567936c71432c1fd0003}
+      \strng{editorbibnamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{editornamehash}{c79e6794d92b660604601937a9b1c766}
+      \strng{editorfullhash}{c79e6794d92b660604601937a9b1c766}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3-540-65715-0}
+      \field{title}{Scanning Tunneling Microscopy and Its Application}
+      \field{year}{1992}
+    \endentry
+    \entry{tunnelmatrix}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fcc29bfb5bf11322580291581b37331d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcc29bfb5bf11322580291581b37331d}
+      \strng{fullhash}{fcc29bfb5bf11322580291581b37331d}
+      \strng{bibnamehash}{fcc29bfb5bf11322580291581b37331d}
+      \strng{authorbibnamehash}{fcc29bfb5bf11322580291581b37331d}
+      \strng{authornamehash}{fcc29bfb5bf11322580291581b37331d}
+      \strng{authorfullhash}{fcc29bfb5bf11322580291581b37331d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review. B, Condensed matter}
+      \field{month}{12}
+      \field{title}{Tunneling matrix elements in three-dimensional space: The derivative rule and the sum rule}
+      \field{volume}{42}
+      \field{year}{1990}
+      \field{pages}{8841\bibrangedash 8857}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.42.8841
+      \endverb
+    \endentry
+    \entry{Kano}{article}{}
+      \name{author}{3}{}{%
+        {{hash=687d5e8e096818f36cc7d37b07adb6c3}{%
+           family={Kano},
+           familyi={K\bibinitperiod},
+           given={Shinya},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41dde2cfede10105bf36f7c1c3ce5403}{%
+           family={Tada},
+           familyi={T\bibinitperiod},
+           given={Tsukasa},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e009c0b3396096657171fae0152addd8}{%
+           family={Majima},
+           familyi={M\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bc599338ed9322af795d86f711c257d}
+      \strng{fullhash}{6527856d3d70578fa3fe03474ce5050d}
+      \strng{bibnamehash}{6527856d3d70578fa3fe03474ce5050d}
+      \strng{authorbibnamehash}{6527856d3d70578fa3fe03474ce5050d}
+      \strng{authornamehash}{3bc599338ed9322af795d86f711c257d}
+      \strng{authorfullhash}{6527856d3d70578fa3fe03474ce5050d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chem. Soc. Rev.}
+      \field{month}{10}
+      \field{title}{Nanoparticle characterization based on STM and STS}
+      \field{volume}{44}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1039/C4CS00204K
+      \endverb
+    \endentry
+    \entry{MoritzWolfgang2022SSDb}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1fefef7eaa74142e021be86cc56fccb5}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1fefef7eaa74142e021be86cc56fccb5}
+      \strng{fullhash}{1fefef7eaa74142e021be86cc56fccb5}
+      \strng{bibnamehash}{1fefef7eaa74142e021be86cc56fccb5}
+      \strng{authorbibnamehash}{1fefef7eaa74142e021be86cc56fccb5}
+      \strng{authornamehash}{1fefef7eaa74142e021be86cc56fccb5}
+      \strng{authorfullhash}{1fefef7eaa74142e021be86cc56fccb5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This timely text covers the theory and practice of surface and nanostructure determination by low-energy electron diffraction (LEED) and surface X-ray diffraction (SXRD): it is the first book on such quantitative structure analysis in over 30 years. It provides a detailed description of the theory, including cutting-edge developments and tested experimental methods. The focus is on quantitative techniques, while the qualitative interpretation of the LEED pattern without quantitative I(V) analysis is also included. Topics covered include the future study of nanoparticles, quasicrystals, thermal parameters, disorder and modulations of surfaces with LEED, with introductory sections enabling the non-specialist to follow all the concepts and applications discussed. With numerous colour figures throughout, this text is ideal for undergraduate and graduate students and researchers, whether experimentalists or theorists, in the fields of surface science, nanoscience and related technologies. It can serve as a textbook for graduate-level courses of one or two semesters.}
+      \field{isbn}{9781108418096}
+      \field{title}{Surface Structure Determination by LEED and X-rays}
+      \field{year}{2022}
+      \keyw{Chemical structure ; Low energy electron diffraction ; Surface chemistry ; Surfaces (Technology) ; X-ray diffraction imaging}
+    \endentry
+    \entry{OTERO2017105}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ae9984cbdf6a216bd38f015aa9b263a5}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7848272c1e380baec678bc56f6156987}{%
+           family={{Vázquez de Parga}},
+           familyi={V\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9cd0a954b5db7d293cb2a89ab20887db}{%
+           family={Gallego},
+           familyi={G\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb5e79e906a7fab98e722e676f2498f1}
+      \strng{fullhash}{e3d875af4aae5d181f8152b91fdc5675}
+      \strng{bibnamehash}{e3d875af4aae5d181f8152b91fdc5675}
+      \strng{authorbibnamehash}{e3d875af4aae5d181f8152b91fdc5675}
+      \strng{authornamehash}{eb5e79e906a7fab98e722e676f2498f1}
+      \strng{authorfullhash}{e3d875af4aae5d181f8152b91fdc5675}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{During the last decade, interest on the growth and self-assembly of organic molecular species on solid surfaces spread over the scientific community, largely motivated by the promise of cheap, flexible and tunable organic electronic and optoelectronic devices. These efforts lead to important advances in our understanding of the nature and strength of the non-bonding intermolecular interactions that control the assembly of the organic building blocks on solid surfaces, which have been recently reviewed in a number of excellent papers. To a large extent, such studies were possible because of a smart choice of model substrate-adsorbate systems where the molecule-substrate interactions were purposefully kept low, so that most of the observed supramolecular structures could be understood simply by considering intermolecular interactions, keeping the role of the surface always relatively small (although not completely negligible). On the other hand, the systems which are more relevant for the development of organic electronic devices include molecular species which are electron donors, acceptors or blends of donors and acceptors. Adsorption of such organic species on solid surfaces is bound to be accompanied by charge-transfer processes between the substrate and the adsorbates, and the physical and chemical properties of the molecules cannot be expected any longer to be the same as in solution phase. In recent years, a number of groups around the world have started tackling the problem of the adsorption, self- assembly and electronic and chemical properties of organic species which interact rather strongly with the surface, and for which charge-transfer must be considered. The picture that is emerging shows that charge transfer can lead to a plethora of new phenomena, from the development of delocalized band-like electron states at molecular overlayers, to the existence of new substrate-mediated intermolecular interactions or the strong modification of the chemical reactivity of the adsorbates. The aim of this review is to start drawing general conclusions and developing new concepts which will help the scientific community to proceed more efficiently towards the understanding of organic/inorganic interfaces in the strong interaction limit, where charge-transfer effects must be taken into consideration.}
+      \field{issn}{0167-5729}
+      \field{journaltitle}{Surface Science Reports}
+      \field{number}{3}
+      \field{title}{Electronic, structural and chemical effects of charge-transfer at organic/inorganic interfaces}
+      \field{volume}{72}
+      \field{year}{2017}
+      \field{pages}{105\bibrangedash 145}
+      \range{pages}{41}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.surfrep.2017.03.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167572917300092
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167572917300092
+      \endverb
+      \keyw{Organic adsorbates,Self-assembly,Charge transfer}
+    \endentry
+    \entry{PhysRevLett}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a1a0bc3d34d8ba3062dbbe7183481173}{%
+           family={Tersoff},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=04bbe60a9183b1f06643d3d20346ce07}{%
+           family={Hamann},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{19da315675f4240614f55c1453267a92}
+      \strng{fullhash}{19da315675f4240614f55c1453267a92}
+      \strng{bibnamehash}{19da315675f4240614f55c1453267a92}
+      \strng{authorbibnamehash}{19da315675f4240614f55c1453267a92}
+      \strng{authornamehash}{19da315675f4240614f55c1453267a92}
+      \strng{authorfullhash}{19da315675f4240614f55c1453267a92}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Theory and Application for the Scanning Tunneling Microscope}
+      \field{volume}{50}
+      \field{year}{1983}
+      \field{pages}{1998\bibrangedash 2001}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.50.1998
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.50.1998
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.50.1998
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,490 @@
+%% LLT: Turn off some annoying warnings...
+\RequirePackage{silence}
+\WarningFilter{titlesec}{Non standard sectioning command}
+\WarningFilter{scrreprt}{Usage of package}
+\WarningFilter{scrreprt}{Activating an ugly workaround}
+
+%This thesis was typeset with \LaTeXe. It uses the \textit{Clean Thesis} style developed by Ricardo Langner. The design of the \textit{Clean Thesis} style is inspired by user guide documents from Apple Inc. The thesis template was adapted by Desmond Grossmann, Stefan Janisch and Paul Beck to implement the editorial guidelines of \textit{Astronomy\A&Astrophysics} and the corporate identity guidelines of the University of Graz for the faculty of natural sciences. 
+
+% **************************************************
+% Document Class Definition
+% **************************************************
+
+\documentclass[%
+	paper=A4,					% paper size --> A4 is default in Germany
+	twoside=true,				% onesite or twoside printing
+	openright,					% doublepage cleaning ends up right side
+	parskip=full,				% spacing value / method for paragraphs
+	chapterprefix=true,			% prefix for chapter marks
+	11pt,						% font size
+	headings=normal,			% size of headings
+	bibliography=totoc,			% include bib in toc
+	listof=totoc,				% include listof entries in toc
+	titlepage=on,				% own page for each title page
+	captions=tableabove,		% display table captions above the float env
+	draft=false,				% value for draft version
+]{scrreprt}%
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+\usepackage[a-1b]{pdfx}
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\usepackage{wrapfig}
+\newcommand{\thesisTitle}{De revolutionibus orbium coelestium}
+\newcommand{\thesisSubtitle}{Über die Umlaufbahnen der Himmelssphären}
+\newcommand{\thesisName}{Nicolaus Copernicus}
+\newcommand{\thesisSubject}{Bachelor's / Master's / PhD Thesis}
+\newcommand{\thesisDegree}{Bachelor / Master of Science $-$ BSc / MSc}
+\newcommand{\thesisDate}{\today}
+\newcommand{\thesisVersion}{2.0}
+
+
+\newcommand{\thesisFirstSupervisor}{Prof.\,Dr. Aristach von Samos}
+\newcommand{\thesisSecondSupervisor}{Johannes Kepler, PhD}
+
+\newcommand{\thesisUniversity}{\protect{University of Graz}}
+\newcommand{\thesisUniversityDepartment}{Department of Geophysics, Astrophysics and Meteorology}
+\newcommand{\thesisUniversityInstitute}{Institute of Physics}
+%\newcommand{\thesisUniversityGroup}{Clean Thesis Group (CTG)}
+\newcommand{\thesisUniversityCity}{Graz}
+\newcommand{\thesisUniversityStreetAddress}{Universitaetsplatz 5}
+\newcommand{\thesisUniversityPostalCode}{8020}
+%Various shortcuts for journals
+
+\newcommand{\aap}{Astronomy and Astrophysics}
+\newcommand{\mnras}{Monthly Notices of the RAS}
+\newcommand{\apj}{The Astrophysical Journal}
+\newcommand{\Kepler}{\textit{Kepler} }
+\newcommand{\apjs}{The Astrophysical Journal Supplement}
+\newcommand{\nphysa}{Nuclear Physics A}
+\newcommand{\prd}{Physical Review D}
+
+\usepackage{xspace}
+\newcommand{\Figure}[1]{Figure\,\ref{#1}\xspace}
+\newcommand{\Fig}[1]{Fig.\,\ref{#1}\xspace}
+\newcommand{\Equation}[1]{Equation\,\ref{#1}\xspace}
+\newcommand{\Eq}[1]{Eq.\,\ref{#1}\xspace}
+\newcommand{\Section}[1]{Section\,\ref{#1}\xspace}
+\newcommand{\Sec}[1]{Sec.\,\ref{#1}\xspace}
+
+\newcommand{\Table}[1]{Table\,\ref{#1}\xspace}
+\newcommand{\Listing}[1]{Listing\,\ref{#1}\xspace}
+
+\usepackage{pdflscape,longtable} % allowing for tables in landscape format and long tables
+
+\usepackage{textgreek} %allow for greek character in text, e.g. \textbeta
+
+\usepackage{setspace, graphicx, hyphenat, fancyhdr, ifthen, everypage, enumitem, setspace}
+\usepackage[pdfa]{hyperref}
+
+%\RequirePackage[dvipsnames]{xcolor}
+\newcommand{\blu}{\textcolor{blue} }
+\newcommand{\red}{\textcolor{red} }
+\newcommand{\grn}{\textcolor{green} }
+\newcommand{\cya}{\textcolor{cyan} }
+
+\usepackage[normalem]{ulem}
+%Loading the normalem package option prevents the redefinition of existing, already loaded definitions. If not loaded, the redefinition of the \emph command through ulem leads to formating problems in the bibilgraphy.
+
+
+%bold Text in CI-Color
+\newcommand{\physbf}[1]{\textbf{\textcolor{ctgreenblue}{#1}}}
+%italic Text in CI-Color
+\newcommand{\physit}[1]{\textit{\textcolor{ctgreenblue}{#1}}}
+%normal Text in CI-Color
+\newcommand{\physnormal}[1]{\textcolor{ctgreenblue}{#1}}
+\newcommand{\physgray}[1]{\textcolor{ctcolorgray}{#1}}
+%horizontal like in CI-Color
+\newcommand{\physRules}{{\color{ctcolorgray}{\vspace{-10mm}\rule{\linewidth}{1pt}}}\vspace{-1mm}}
+%\newcommand{\physRules}[1]{%\textcolor{black}{\vspace{-9mm}\rule[0.5ex]{\linewidth}{1pt}}}
+
+% iteration Tools: Candidate ---------------------------------------------------
+\newcommand{\StudentInitials}{StudentPlaceYourInitialsHere}
+\newcommand{\AdviserInitials}{AdviserPlaceYourInitialsHere}
+
+\newcommand{\myRevision}[1]{\textbf{\textcolor{red}{#1}}}
+\newcommand{\myComment}[1]{\textit{\textcolor{red}{[\StudentInitials: #1]}}}
+\newcommand{\myToDo}[1]{\textit{\textcolor{orange}{[\textsc{ToDo}: #1]}}}
+
+
+% iteration Tools: Supervisor --------------------------------------------------
+\newcommand{\adviserComment}[1]{\textit{\textcolor{blue}{[\AdviserInitials: #1]}}}
+
+%add re
+\newcommand{\adviserAddition}[1]{\textbf{\textcolor{blue}{#1}}}
+
+\newcommand{\adviserHighlighted}[1]{\newline\colorbox{yellow}{\parbox{1\textwidth}{#1}}}
+
+\newcommand{\longSentence}[1]
+{\newline\colorbox{yellow}{\parbox{1\textwidth}{#1}\textcolor{gray}{~~[\textit{long Sentence}]}}}
+
+
+\newcommand{\adviserMarkover}[1]{\textit{\textcolor{magenta}{\uwave{#1}}}}
+\newcommand{\mo}[1]{\textit{\textcolor{magenta}{\uwave{#1}}}}
+
+\newcommand{\adviserMarkoverComment}[2]{\textit{\textcolor{magenta}{\uwave{#1}}} \textit{\textcolor{blue}{[\AdviserInitials: #2]}}}
+\newcommand{\mc}[2]{\textit{\textcolor{magenta}{\uwave{#1}}} \textit{\textcolor{blue}{[\AdviserInitials: #2]}}}
+
+\newcommand{\adviserDelete}[1]{\textit{\textcolor{magenta}{\sout{#1}}}}
+
+
+
+%Various useful astronomical commands
+\newcommand{\Msun}{\>{\rm M_{\odot}}\xspace}
+\newcommand{\Rsun}{\mbox{$R_{\odot}$}\xspace}
+\newcommand{\sig}{\mbox{$\sigma_{e}$}\xspace}
+\newcommand{\degs} {^\circ}
+\newcommand{\numax} {$\nu_{\mathrm{max}}$\xspace}
+\newcommand{\dnu} {$\Delta\nu$\xspace}
+\newcommand{\muHz}{\,$\mu$Hz\xspace}
+\newcommand{\varR}{$\varepsilon_r$\xspace}
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage{amsmath,amssymb}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}		% defines file's character encoding
+\usepackage[T1]{fontenc}
+\usepackage{threeparttable}
+\DeclareUnicodeCharacter{00A0}{ }
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\usepackage{silence}
+\WarningFilter{latex}{Text page}
+\usepackage{lipsum}
+\usepackage[					% clean thesis style
+	figuresep=colon,%
+	sansserif=false, % true wäre CI standard
+	hangfigurecaption=false,%
+	hangsection=true,%
+	hangsubsection=true,%
+	colorize=full,%
+	colortheme=bluemagenta,%
+% LLT: Use biber if using UTF8 encoding
+% 	bibsys=bibtex,%
+	bibsys=biber,%
+	bibfile=bib-refs,%
+	bibstyle=authoryear,%
+]{cleanthesis}
+\let\cite\citet
+\usepackage[hang]{footmisc}
+\setlength{\footnotemargin}{2mm}
+
+%by default Bibtext would use the abbreviation 'u.a.' instead of 'et al.', when set to German. This can be corrected by:
+\DefineBibliographyStrings{german}{andothers={et\addabbrvspace al\adddot}}
+
+
+\hypersetup{					% setup the hyperref-package options
+	pdftitle={\thesisTitle},	% 	- title (PDF meta)
+	pdfsubject={\thesisSubject},% 	- subject (PDF meta)
+	pdfauthor={\thesisName},	% 	- author (PDF meta)
+	plainpages=false,			% 	-
+	colorlinks=true,			% 	- colorize links?
+	citecolor= ctgreenblue,
+    linkcolor= ctgreenblue,
+    urlcolor= ctgreenblue,
+    pdfborder={0 0 0},			% 	-
+	breaklinks=true,			% 	- allow line break inside links
+	bookmarksnumbered=true,		%
+	bookmarksopen=true			%
+}
+
+%\usepackage[firstpage]{draftwatermark}\SetWatermarkText{Thesis Template}\SetWatermarkScale{0.5}
+
+% --------------------------
+% rename document parts
+% --------------------------
+\captionsetup{labelfont={sf,bf,color=ctgreenblue},font={color=black}}
+
+%FIGURES
+\renewcaptionname{english}{\figurename}{Fig.}
+%%%%%%%%%%%%%%%%%%
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%
+%TABLES
+\renewcaptionname{english}{\tablename}{Table}
+\newcommand{\tablefoot}[1]{\medskip \small \textcolor{ctgreenblue}{\bfseries\sffamily Notes.} #1}
+\newcommand{\systemDependencies}[1]{\textcolor{ctgreenblue}{\bfseries\sffamily System Dependencies.} #1}
+\newcommand{\monofig}[4]{
+    
+    \begin{figure}[H]
+    \centering
+    \includegraphics[#1]{#2}
+    \caption{
+        #3
+    }
+    \label{#4}
+    \end{figure}
+    
+}
+\newcommand{\polyfig}[6]{
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}[b]{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#1}
+            \caption{#2}
+            \label{#3}
+        \end{minipage}
+        \begin{minipage}[b]{0.45\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#4}
+            \caption{#5}
+            \label{#6}
+        \end{minipage}
+    \end{figure}
+}
+\newcommand{\polyfigacc}[8]{
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}[b]{#1}
+            \centering
+            \includegraphics[width=\textwidth]{#2}
+            \caption{#3}
+            \label{#4}
+        \end{minipage}
+        \begin{minipage}[b]{#5}
+            \centering
+            \includegraphics[width=\textwidth]{#6}
+            \caption{#7}
+            \label{#8}
+        \end{minipage}
+    \end{figure}
+}
+\newcommand{\trifig}[9]{
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#1}
+            \caption{#2}
+            \label{#3}
+        \end{minipage}
+        \begin{minipage}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#4}
+            \caption{#5}
+            \label{#6}
+        \end{minipage}
+        \begin{minipage}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#7}
+            \caption{#8}
+            \label{#9}
+        \end{minipage}
+        \caption{#10}
+        \label{#11}
+    \end{figure}
+}
+\newcommand{\trifigcom}[8]{
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#1}
+            \caption{}
+            \label{#2}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#3}
+            \caption{}
+            \label{#4}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.32\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{#5}
+            \caption{}
+            \label{#6}
+        \end{subfigure}
+        \caption{#7}
+        \label{#8}
+    \end{figure}
+}
+\newcommand{\duofigcom}[6]{
+    \begin{figure}[H]
+        \centering
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\textwidth]{#1}
+            \caption{}
+            \label{#2}
+        \end{subfigure}
+        \begin{subfigure}{0.49\textwidth}
+            \includegraphics[width=\textwidth]{#3}
+            \caption{}
+            \label{#4}
+        \end{subfigure}
+        \caption{
+            #5
+            }
+        \label{#6}
+    \end{figure}
+}
+\graphicspath{ {./graphics/} }  
+\usepackage{float}
+%EQUATIONS
+%\renewcommand\theequation{{\color{ctgreenblue} \arabic{equation}}}
+%\newtagform{physGreen}{\color{RoyalBlue3}(}{)}
+%\usetagform{physGreen}
+
+
+%\patchcmd{\@eqnnum}{\normalcolor}{\color{magenta}}{\typeout{eqnnum patch: OK!}}{\typeout{eqnnum patch: Oh, dear!}}
+
+%LISTING
+% printing out color coded python code
+%\usepackage{listings,minted}
+\usepackage{listings,multicol}
+%https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings
+ \definecolor{greencode}{rgb}{0,0.7,0}
+ \definecolor{purplecode}{rgb}{0.7,0,0.7}
+
+\lstdefinestyle{spyderstyle}{
+	language=Fortran,
+    %backgroundcolor=\color{backcolours},   
+    frame=Tb,
+    basicstyle=\small,
+    commentstyle=\color{gray},
+    keywordstyle=\color{purplecode},
+    numberstyle=\scriptsize\color{gray},
+    stringstyle=\color{greencode},               
+    numbers=left,     
+    classoffset=1,
+    keywordstyle=\color{blue},
+}
+\lstset{style=spyderstyle}
+
+\usepackage[msc,nawi]{tugrazthesis} % TU Graz Title Style
+%----------------------------------------------------------
+
+
+% **************************************************
+% Information for TU Titlepage
+% **************************************************
+\begin{document}
+
+%\thesisauthor[Firstname Lastname]{\thesisName}
+%\thesistitle[Short Thesis Title]{\thesisTitle \\ \thesisSubtitle}
+%\thesisdate[ ]{\thesisDate}
+%\supervisortitle{{Supervisors}} %Select singular/plural
+%
+%% Supervisor info
+%\supervisor{%
+%  \thesisFirstSupervisor\\
+%  faculty (up to two lines)
+%
+%  \thesisSecondSupervisor\\
+%  faculty (up to two lines)
+%
+%}
+%\academicdegree{Master of Science}
+%\curriculum{Physics} %Degree programme
+%
+%% **************************************************
+%% Document CONTENT
+%% **************************************************
+%
+%% --------------------------
+%% Front matter
+%% --------------------------
+%\pagenumbering{roman}			% roman page numbing (invisible for empty page style)
+%\pagestyle{empty}               % no header or footers
+%\input{content/titlepages}		% INCLUDE: all titlepages
+%\pagestyle{empty}				% no header or footers
+%\cleardoublepage
+%
+%\pagestyle{maincontentstyle} 	% fancy header and footer
+%\input{content/writing-guidance} % read me before starting to write. Not part of the actual deliverable.
+
+
+\pagestyle{plain}				% display just page numbers
+\input{content/1_abstract}
+% ------------------------------------
+\cleardoublepage
+%
+\setcounter{tocdepth}{2}		% define depth of toc
+\tableofcontents				% display table of contents
+\cleardoublepage
+
+% --------------------------
+% Body matter
+% --------------------------
+\pagenumbering{arabic}			% arabic page numbering
+\setcounter{page}{1}			% set page counter
+\pagestyle{maincontentstyle} 	% fancy header and footer
+%Include various chapters that are in the folder content
+
+
+\input{content/2_introduction.tex}
+\input{content/3_fundamentals}
+\input{content/4_experimental_setup}
+\input{content/5_results}
+\input{content/6_disscussion}
+
+\cleardoublepage
+
+
+% --------------------------
+% Back matter
+% --------------------------
+
+{
+\setstretch{1.1}
+\renewcommand{\bibfont}{\normalfont\small}
+\setlength{\biblabelsep}{0pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\printbibliography
+}
+\cleardoublepage
+
+%%deactivate the following  line if no appendix is needed in your thesis. --------------------------------------
+%\begin{appendix} 
+%\cftaddtitleline{toc}{part}{Appendix}{} 
+%\renewcommand\chaptername{Appendix}
+%%! \input{content/appendix_DeutschesGlossar} %Bsp eines Glossars der verwendeten deutschen Übersetzungen der Englishen Fachbegriffe. Nur beim Abfassen von Arbeiten auf Deutsch notwendig.
+%%\part{Appendix}
+%\input{content/appendixA} %example, how to use the appendix on extensive tables.
+%\input{content/appendixB} %example, how to list program code.
+%\input{content/appendixC} %example, how to list MESA inlists.
+%\end{appendix}
+%
+%\cleardoublepage
+%
+%\renewcommand{\chaptermark}[1]{%
+%	\markboth{%
+%		\footnotesize%
+%		{\color{ctcolorfootermark}\textbf{\chaptername}}%
+%		\quad%
+%		{\color{ctcolorfootertitle}#1}%
+%	}{}%
+%}
+%%---------------------------------------------------------
+%
+%
+%%\pagestyle{plain} 
+%\renewcommand\chaptername{Curriculum Vitae}
+%%\renewcommand*{\thechapter}{}
+%\input{content/curriculumVitae}
+%\clearpage
+%%\renewcommand*{\thechapter}{}
+%\renewcommand\chaptername{List of Pulications}
+%
+%
+%\input{content/listOfPublications}
+%
+%
+%\clearpage
+%
+%
+%\input{content/colophon}
+%\cleardoublepage
+%
+%\input{content/declaration}
+%\clearpage
+%% **************************************************
+%% End of Document CONTENT
+%% **************************************************
+%
+\end{document}

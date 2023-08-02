@@ -1,0 +1,45 @@
+% !TEX root = ../thesis-example.tex
+%
+
+% ------------------------------------  --> cover title page
+\begin{titlepage}
+	\pdfbookmark[0]{Cover}{Cover}
+	\flushright
+	\hfill
+	\vfill
+	{\color{ctgreenblue}\LARGE\thesisTitle \par}
+	{\color{ctcolorgray}\large\thesisSubtitle}
+	\color{ctgreenblue}\rule[5pt]{\textwidth}{1.25pt} \par
+	{\color{ctgreenblue}\Large\thesisName}
+	\vfill
+	\textit{\large\thesisDate}
+\end{titlepage}
+% ------------------------------------  --> page 2 left empty on purpose
+
+\input{content/titlepageKFU} % uncomment for KFU style
+%\input{content/titlepageTU} % uncomment for TU style
+
+% ------------------------------------  --> lower title back for single page layout
+
+
+\hfill
+\vfill
+{
+	\small\noindent
+	\physbf{\thesisName} \\
+	\physit{\thesisTitle~$-$~\thesisSubtitle} \\[0.5em]
+	Thesis in partial fulfillment of the \hbox{requirements for the degree of \thesisDegree}; \\
+	%Thesis submitted on \red{Month DD, 202X}. %and defended on \red{Month DD, 2020}. %e.g. 2020, November 15, 2020. Before submission, uncomment this line, fill out the date, remove the red color of the data and delete the following line, containing 'Unsubmitted Thesis Manuscript'.
+	\red{\bfseries Unsubmitted Thesis Manuscript: compiled on \thesisDate}  
+	\\[0.5em]
+	Department for Geophysics, Astrophysics and Meteorology, \\ Institute for Physics, NAWI Graz, University of Graz.\\[1.5em]
+\physit{Supervisors}: \thesisFirstSupervisor $^1$ and
+\thesisSecondSupervisor $^{1,2}$\\
+    %\physit{Jury panel}:
+    \physit{External Readers}: 
+    Dr. Hypatia$^{1}$, Doz.\,Dr. Galileo Galilei$^{2}$, and Prof.\,Dr. Carl Sagan$^{1,2}$
+ \\[1.5em]
+	$^1$~Institut für Physik, Institutsbereich Geophysik, Astrophysik und Meteorologie, 
+	\newline \hbox{~~~NAWI\,Graz, University of Graz, Universitätsplatz 5/II, 8010 Graz, Austria.}\\
+    $^2$~Instituto de Astrof\'{\i}sica de Canarias, E-38200 La Laguna, Tenerife, Spain.\\
+}

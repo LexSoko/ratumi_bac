@@ -1,0 +1,52 @@
+&star_job
+   ! display on-screen plots
+     pgstar_flag = .true.
+
+   ! begin with a pre-main sequence model
+    create_pre_main_sequence_model = .true.
+    !pre_ms_relax_num_steps = 200
+
+   ! Read extra inlist containing filename for saved model
+    read_extra_star_job_inlist1 = .false.
+      ! save a model at the end of the run
+        save_model_when_terminate = .true.
+        save_model_filename = 'PMSmodel_aldebaran.mod'
+/ ! end of star_job namelist
+
+
+&controls
+  ! read extra inlist containing the starting specifications 
+    read_extra_controls_inlist1 = .false.
+
+  ! starting specifications
+    initial_mass = 1.16   ! in Msun units
+    initial_y = 0.2744 ! 
+    initial_z = 0.0108 ! Fe/H = 0.0, Grevesse & Sauval (1998)
+
+ ! stop when the star nears ZAMS (Lnuc/L > 0.99)
+    Lnuc_div_L_zams_limit = 0.99d0
+    stop_near_zams = .true.
+
+  ! No history or profile output
+    do_history_file = .false.
+    write_profiles_flag = .false.
+    photo_interval = -1
+    terminal_interval = 100
+    write_header_frequency = 10
+
+  ! safety stop after 2000 models
+    max_model_number = 2000
+/ ! end of controls namelist
+
+&pgstar
+        pgstar_interval = 25
+      ! set static plot bounds
+        HR_logT_min = 3.5
+        HR_logT_max = 4.0
+        HR_logL_min = 0.0
+        HR_logL_max = 3.0
+      ! set window size (aspect_ratio = height/width)
+        HR_win_flag = .true.
+        HR_win_width = 6
+        HR_win_aspect_ratio = .75
+/ ! end of pgstar namelist
