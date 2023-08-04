@@ -84,6 +84,16 @@ Substituting into \ref{eq:tunneling_pert_simple} as seen in executed in [\cite{P
 \begin{equation}
     I = 32 \pi^3e^2 V_{bias}\phi^2 D_t(E_F)R^2 k^{-4} e^{2kR} \cdot \sum_{\nu} |\psi_{\nu}(\vec{r_0})|^2 \delta(E_{\nu} - E_F) 
 \end{equation}
+Where $D_t(E_F)$ is the Density of States of the Tip at the Fermi Level. 
+The sum over the local states of the surface $\psi_{\nu}$ at the Fermi Level ($\delta(E_{\nu} - E_F)$) can be interpreted as the Local Density of States (LDOS).
+Using the surface wavefunction one can see that the tunneling current is following an exponential decay, that is proportional to the distance $d$ between the tip and the sample:
+\begin{equation}
+    I \varpropto e^{-2 \cdot d \sqrt{\frac{2m \phi}{\hbar^2}}}
+    \label{eq:propcurrent}
+\end{equation}
+
+
+
 
 \newpage
 

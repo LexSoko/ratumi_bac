@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  2 AUG 2023 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  4 AUG 2023 05:00
 entering extended mode
 **c:/Bac_Arbeit/ratumi_bac/bac_template/main.tex
 (c:/Bac_Arbeit/ratumi_bac/bac_template/main.tex
@@ -2160,13 +2160,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 [5 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_tip_sheme.PNG>] [6]
-<graphics/fundamental_leed_setup.PNG, id=120, 451.6875pt x 293.898pt>
+<graphics/fundamental_leed_setup.PNG, id=124, 451.6875pt x 293.898pt>
 File: graphics/fundamental_leed_setup.PNG Graphic file (type png)
 <use graphics/fundamental_leed_setup.PNG>
-Package pdftex.def Info: graphics/fundamental_leed_setup.PNG  used on input line 103.
+Package pdftex.def Info: graphics/fundamental_leed_setup.PNG  used on input line 113.
 (pdftex.def)             Requested size: 197.7259pt x 128.65628pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--115
+Underfull \hbox (badness 10000) in paragraph at lines 118--125
 
  []
 
@@ -2174,24 +2174,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--115
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_leed_setup.PNG>]
-<graphics/fundamental_kspace.PNG, id=133, 469.15276pt x 315.579pt>
+<graphics/fundamental_kspace.PNG, id=137, 469.15276pt x 315.579pt>
 File: graphics/fundamental_kspace.PNG Graphic file (type png)
 <use graphics/fundamental_kspace.PNG>
-Package pdftex.def Info: graphics/fundamental_kspace.PNG  used on input line 164.
+Package pdftex.def Info: graphics/fundamental_kspace.PNG  used on input line 174.
 (pdftex.def)             Requested size: 193.77356pt x 130.34166pt.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 164.
-<graphics/fundamental_kspace_theta.PNG, id=134, 440.847pt x 228.855pt>
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 174.
+<graphics/fundamental_kspace_theta.PNG, id=138, 440.847pt x 228.855pt>
 File: graphics/fundamental_kspace_theta.PNG Graphic file (type png)
 <use graphics/fundamental_kspace_theta.PNG>
-Package pdftex.def Info: graphics/fundamental_kspace_theta.PNG  used on input line 164.
+Package pdftex.def Info: graphics/fundamental_kspace_theta.PNG  used on input line 174.
 (pdftex.def)             Requested size: 193.77356pt x 100.59174pt.
  [8 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_kspace.PNG> <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_kspace_theta.PNG>]) (c:/Bac_Arbeit\ratumi_bac\bac_template\content/4_experimental_setup.tex
 chapter 3.
 
 
 pdfTeX warning: pdflatex (file ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./graphics//Experimental_Setup/STM_Picture_1_edited.pdf, id=146, 845.07724pt x 597.55246pt>
+<./graphics//Experimental_Setup/STM_Picture_1_edited.pdf, id=149, 845.07724pt x 597.55246pt>
 File: ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf Graphic file (type pdf)
 <use ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf>
 Package pdftex.def Info: ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf  used on input line 20.
@@ -2242,17 +2242,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44855 strings out of 479334
- 818719 string characters out of 2856134
- 1840471 words of memory out of 3000000
- 61228 multiletter control sequences out of 15000+200000
- 500852 words of font info for 198 fonts, out of 3000000 for 9000
+ 44860 strings out of 479334
+ 818774 string characters out of 2856134
+ 1840527 words of memory out of 3000000
+ 61229 multiletter control sequences out of 15000+200000
+ 501112 words of font info for 200 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,14n,131p,10660b,2418s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:/Bac_Arbeit\ratumi_bac\bac_template\main.pdf (20 pages, 1838492 bytes).
+{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on c:/Bac_Arbeit\ratumi_bac\bac_template\main.pdf (20 pages, 1853495 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  45183 words of extra memory for PDF output out of 51595 (max. 10000000)
 
