@@ -86,6 +86,47 @@
       \verb 10.1103/PhysRevB.42.8841
       \endverb
     \endentry
+    \entry{PhysRev.25.753}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ac86f79394a1e26ef3b0d80080e8e78c}{%
+           family={Davey},
+           familyi={D\bibinitperiod},
+           given={Wheeler\bibnamedelima P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \strng{fullhash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \strng{bibnamehash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \strng{authorbibnamehash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \strng{authornamehash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \strng{authorfullhash}{ac86f79394a1e26ef3b0d80080e8e78c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{6}
+      \field{title}{Precision Measurements of the Lattice Constants of Twelve Common Metals}
+      \field{volume}{25}
+      \field{year}{1925}
+      \field{pages}{753\bibrangedash 761}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1103/PhysRev.25.753
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.25.753
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.25.753
+      \endverb
+    \endentry
     \entry{Kano}{article}{}
       \name{author}{3}{}{%
         {{hash=687d5e8e096818f36cc7d37b07adb6c3}{%
