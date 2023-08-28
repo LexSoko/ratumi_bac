@@ -127,6 +127,41 @@
       \verb https://link.aps.org/doi/10.1103/PhysRev.25.753
       \endverb
     \endentry
+    \entry{guilliatt1969lattice}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d15bc8a4b378a7bf50a8a22161276ec6}{%
+           family={Guilliatt},
+           familyi={G\bibinitperiod},
+           given={IF},
+           giveni={I\bibinitperiod}}}%
+        {{hash=387f08d80bb90c3bfa6e31ce564d0ba6}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={NH},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{69c45f6f949dbef9351edc2501cde13f}
+      \strng{fullhash}{69c45f6f949dbef9351edc2501cde13f}
+      \strng{bibnamehash}{69c45f6f949dbef9351edc2501cde13f}
+      \strng{authorbibnamehash}{69c45f6f949dbef9351edc2501cde13f}
+      \strng{authornamehash}{69c45f6f949dbef9351edc2501cde13f}
+      \strng{authorfullhash}{69c45f6f949dbef9351edc2501cde13f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the Faraday Society}
+      \field{title}{Lattice constant variations in finely divided magnesium oxide}
+      \field{volume}{65}
+      \field{year}{1969}
+      \field{pages}{3328\bibrangedash 3333}
+      \range{pages}{6}
+    \endentry
     \entry{Kano}{article}{}
       \name{author}{3}{}{%
         {{hash=687d5e8e096818f36cc7d37b07adb6c3}{%
@@ -200,6 +235,114 @@
       \field{title}{Surface Structure Determination by LEED and X-rays}
       \field{year}{2022}
       \keyw{Chemical structure ; Low energy electron diffraction ; Surface chemistry ; Surfaces (Technology) ; X-ray diffraction imaging}
+    \endentry
+    \entry{MOTA2018511}{article}{}
+      \name{author}{8}{}{%
+        {{hash=2071d0cf454ea61a455fd6d46be13cac}{%
+           family={Mota},
+           familyi={M\bibinitperiod},
+           given={María\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=189353f146e31663c03a4ff7e2ea8276}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Bibiana},
+           giveni={B\bibinitperiod}}}%
+        {{hash=89a80826ffb0eb6097f73884d9898b79}{%
+           family={Carrillo},
+           familyi={C\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6edda7507996d54ac68324dd97d878c3}{%
+           family={Ambrosio},
+           familyi={A\bibinitperiod},
+           given={Roberto\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=202f16e77fe55331b35473a48d135d25}{%
+           family={Luque},
+           familyi={L\bibinitperiod},
+           given={Priscy\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5c4532ecc0823bd9032bb149ea9a88f6}{%
+           family={Mireles},
+           familyi={M\bibinitperiod},
+           given={Marcela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5b0431156481037896a6cf7231eee757}{%
+           family={Vivaldo},
+           familyi={V\bibinitperiod},
+           given={Israel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=50a4c2bdd742987219aac2a80bbc1e58}{%
+           family={Quevedo},
+           familyi={Q\bibinitperiod},
+           given={Manuel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8dbe35dfb5e84b490732b8c86a45920}
+      \strng{fullhash}{cb3ceaff67660ba1c77840e34111d04d}
+      \strng{bibnamehash}{356a2b31394d2629afe86f96db45164c}
+      \strng{authorbibnamehash}{356a2b31394d2629afe86f96db45164c}
+      \strng{authornamehash}{d8dbe35dfb5e84b490732b8c86a45920}
+      \strng{authorfullhash}{cb3ceaff67660ba1c77840e34111d04d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pentacene is an important semiconductor in the field of organic electronics. In this work is presented an alternative synthesis procedure to obtain pentacene from 6,13-pentacenequinone as a precursor. Synthesis of pentacene was performed in two reactions, Diels-Adler cycloaddition of 6,13-pentacenequinone followed by 6,13-pentacenequinone reduction to pentacene, employing LiAlH4 as reducing agent. The products were characterized by Fourier Transform Infrared Spectroscopy (FTIR), 1H-Nuclear Magnetic Resonance Spectroscopy (1H-NMR), X-Ray Diffraction (XRD), Thermogravimetric Analysis (TGA) and Ultraviolet Visible Spectroscopy (UV-VIS). In this work, 6,13-pentacenequinone was synthetized with a high yield (55) using an alternative method. The optimization process resulted in an overall reduction of reaction time while exhibiting high yield. The method presented here provides an affordable pentacene synthesis route with high purity, which can be further applied for research and development of organic electronic applications.}
+      \field{issn}{0022-2860}
+      \field{journaltitle}{Journal of Molecular Structure}
+      \field{title}{Fast and inexpensive synthesis of pentacene with high yield using 6,13-pentacenequinone as precursor}
+      \field{volume}{1154}
+      \field{year}{2018}
+      \field{pages}{511\bibrangedash 515}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.molstruc.2017.10.070
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022286017314175
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022286017314175
+      \endverb
+      \keyw{Pentacene,Semiconductor,Organic synthesis}
+    \endentry
+    \entry{pentacenequinone}{online}{}
+      \list{publisher}{1}{%
+        {PubChem}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{National Center for Biotechnology Information (2023). PubChem Compound Summary for CID 76415, 6,13-Pentacenequinone.}
+      \verb{urlraw}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/6_13-Pentacenequinone
+      \endverb
+      \verb{url}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/6_13-Pentacenequinone
+      \endverb
+      \warn{\item Entry 'pentacenequinone' (bib-refs.bib): Invalid format '2023-8-26' of date field 'date' - ignoring}
+    \endentry
+    \entry{phthalacyanine}{online}{}
+      \list{publisher}{1}{%
+        {PubChem}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{title}{National Center for Biotechnology Information (2023). PubChem Compound Summary for CID 86280045, Phthalocyanine}
+      \verb{urlraw}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/Phthalocyanine
+      \endverb
+      \verb{url}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/Phthalocyanine
+      \endverb
+      \warn{\item Entry 'phthalacyanine' (bib-refs.bib): Invalid format '2023-8-26' of date field 'date' - ignoring}
     \endentry
     \entry{OTERO2017105}{article}{}
       \name{author}{3}{}{%

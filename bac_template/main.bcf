@@ -2358,6 +2358,10 @@
     <bcf:citekey order="11">MoritzWolfgang2022SSDb</bcf:citekey>
     <bcf:citekey order="12">MoritzWolfgang2022SSDb</bcf:citekey>
     <bcf:citekey order="13">PhysRev.25.753</bcf:citekey>
+    <bcf:citekey order="14">guilliatt1969lattice</bcf:citekey>
+    <bcf:citekey order="15">pentacenequinone</bcf:citekey>
+    <bcf:citekey order="16">MOTA2018511</bcf:citekey>
+    <bcf:citekey order="17">phthalacyanine</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
