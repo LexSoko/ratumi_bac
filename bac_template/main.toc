@@ -29,10 +29,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Pentacenequinone}{13}{section*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}2-Hydrogen Phthalocyanin on Ag(100)}{13}{section*.25}%
+\contentsline {section}{\numberline {4.2}2-Hydrogen Phthalocyanin on Ag(100)}{14}{section*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Magnesium-Oxide (MgO)}{15}{section*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Discussion}{17}{chapter.5}%
+\contentsline {section}{\numberline {4.4}2-Hydrogen Phthalocyanine on Mg0}{17}{section*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{19}{chapter*.31}%
+\contentsline {chapter}{\numberline {5}Discussion}{19}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{21}{chapter*.35}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  28 AUG 2023 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  31 AUG 2023 04:08
 entering extended mode
 **c:/Bac_Arbeit/ratumi_bac/bac_template/main.tex
 (c:/Bac_Arbeit/ratumi_bac/bac_template/main.tex
@@ -2133,7 +2133,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
                    \relax 
 l.20 \newpage
               [3]
-<graphics/Tunneling_diagram_japan.PNG, id=88, 456.5055pt x 486.618pt>
+<graphics/Tunneling_diagram_japan.PNG, id=90, 456.5055pt x 486.618pt>
 File: graphics/Tunneling_diagram_japan.PNG Graphic file (type png)
 <use graphics/Tunneling_diagram_japan.PNG>
 Package pdftex.def Info: graphics/Tunneling_diagram_japan.PNG  used on input line 23.
@@ -2150,7 +2150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-<graphics/fundamental_tip_sheme.PNG, id=105, 146.949pt x 149.96025pt>
+<graphics/fundamental_tip_sheme.PNG, id=107, 146.949pt x 149.96025pt>
 File: graphics/fundamental_tip_sheme.PNG Graphic file (type png)
 <use graphics/fundamental_tip_sheme.PNG>
 Package pdftex.def Info: graphics/fundamental_tip_sheme.PNG  used on input line 51.
@@ -2181,7 +2181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 [5 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_tip_sheme.PNG>] [6]
-<graphics/fundamental_leed_setup.PNG, id=142, 451.6875pt x 293.898pt>
+<graphics/fundamental_leed_setup.PNG, id=144, 451.6875pt x 293.898pt>
 File: graphics/fundamental_leed_setup.PNG Graphic file (type png)
 <use graphics/fundamental_leed_setup.PNG>
 Package pdftex.def Info: graphics/fundamental_leed_setup.PNG  used on input line 113.
@@ -2195,14 +2195,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--125
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/fundamental_leed_setup.PNG>]
-<graphics/fundamental_kspace.PNG, id=155, 469.15276pt x 315.579pt>
+<graphics/fundamental_kspace.PNG, id=157, 469.15276pt x 315.579pt>
 File: graphics/fundamental_kspace.PNG Graphic file (type png)
 <use graphics/fundamental_kspace.PNG>
 Package pdftex.def Info: graphics/fundamental_kspace.PNG  used on input line 174.
 (pdftex.def)             Requested size: 193.77356pt x 130.34166pt.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 174.
-<graphics/fundamental_kspace_theta.PNG, id=156, 440.847pt x 228.855pt>
+<graphics/fundamental_kspace_theta.PNG, id=158, 440.847pt x 228.855pt>
 File: graphics/fundamental_kspace_theta.PNG Graphic file (type png)
 <use graphics/fundamental_kspace_theta.PNG>
 Package pdftex.def Info: graphics/fundamental_kspace_theta.PNG  used on input line 174.
@@ -2212,7 +2212,7 @@ chapter 3.
 
 
 pdfTeX warning: pdflatex (file ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./graphics//Experimental_Setup/STM_Picture_1_edited.pdf, id=168, 845.07724pt x 597.55246pt>
+<./graphics//Experimental_Setup/STM_Picture_1_edited.pdf, id=170, 845.07724pt x 597.55246pt>
 File: ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf Graphic file (type pdf)
 <use ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf>
 Package pdftex.def Info: ./graphics//Experimental_Setup/STM_Picture_1_edited.pdf  used on input line 20.
@@ -2225,7 +2225,7 @@ LaTeX Font Info:    Trying to load font information for TS1+bch on input line 43
  (C:\Users\Lexsoko\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 ) [10]
-<graphics/6,13-Pentacenequinone.png, id=202, 376.40625pt x 376.40625pt>
+<graphics/6,13-Pentacenequinone.png, id=204, 376.40625pt x 376.40625pt>
 File: graphics/6,13-Pentacenequinone.png Graphic file (type png)
 <use graphics/6,13-Pentacenequinone.png>
 Package pdftex.def Info: graphics/6,13-Pentacenequinone.png  used on input line 67.
@@ -2299,32 +2299,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--77
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/6,13-Pentacenequinone.png>]
-<graphics/Phthalocyanine.png, id=221, 376.40625pt x 376.40625pt>
+<graphics/Phthalocyanine.png, id=223, 376.40625pt x 376.40625pt>
 File: graphics/Phthalocyanine.png Graphic file (type png)
 <use graphics/Phthalocyanine.png>
 Package pdftex.def Info: graphics/Phthalocyanine.png  used on input line 88.
 (pdftex.def)             Requested size: 193.77356pt x 193.77959pt.
 ) (c:/Bac_Arbeit\ratumi_bac\bac_template\content/5_results.tex [12 <c:/Bac_Arbeit/ratumi_bac/bac_template/graphics/Phthalocyanine.png>]
 chapter 4.
-<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_3dig.png, id=234, 371.88937pt x 374.90062pt>
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_3dig.png, id=236, 371.88937pt x 374.90062pt>
 File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_3dig.png Graphic file (type png)
 <use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_3dig.png>
 Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_3dig.png  used on input line 9.
 (pdftex.def)             Requested size: 193.77356pt x 195.34416pt.
-<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_1dig.png, id=235, 334.24875pt x 331.99031pt>
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_1dig.png, id=237, 334.24875pt x 331.99031pt>
 File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_1dig.png Graphic file (type png)
 <use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_1dig.png>
 Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_pentacene\41nm_pentacene_1dig.png  used on input line 9.
 (pdftex.def)             Requested size: 193.77356pt x 192.46838pt.
-<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG, id=237, 468.441pt x 468.222pt>
-File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG Graphic file (type png)
-<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG>
-Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG  used on input line 17.
-(pdftex.def)             Requested size: 276.81505pt x 276.6844pt.
 [13
 
 
  <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_pentacene/41nm_pentacene_3dig.png> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_pentacene/41nm_pentacene_1dig.png>]
+
+LaTeX Warning: Reference `fig_fig:2hpcAg_o' on page 14 undefined on input line 14.
+
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG, id=248, 468.441pt x 468.222pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_Ag100_3.PNG  used on input line 17.
+(pdftex.def)             Requested size: 276.81505pt x 276.6844pt.
 <C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_Ag100_LUMO_1.png, id=249, 917.829pt x 917.829pt>
 File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_Ag100_LUMO_1.png Graphic file (type png)
 <use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_Ag100_LUMO_1.png>
@@ -2339,22 +2342,52 @@ Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_im
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2Hpc_on_Ag100_3.PNG>]
-<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png, id=261, 344.78813pt x 344.78813pt>
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png, id=263, 344.78813pt x 344.78813pt>
 File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png Graphic file (type png)
 <use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png>
-Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png  used on input line 36.
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\21nm_MgO.png  used on input line 37.
 (pdftex.def)             Requested size: 193.77356pt x 193.77448pt.
-<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png, id=262, 344.78813pt x 343.2825pt>
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png, id=264, 344.78813pt x 343.2825pt>
 File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png Graphic file (type png)
 <use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png>
-Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png  used on input line 36.
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_MgO\10nm_MgO.png  used on input line 37.
 (pdftex.def)             Requested size: 193.77356pt x 192.9283pt.
- [15 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_Ag100_LUMO_1.png> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2Hpc_on_Ag100_HOMO.PNG>]) (c:/Bac_Arbeit\ratumi_bac\bac_template\content/6_disscussion.tex [16 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_MgO/21nm_MgO.png> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_MgO/10nm_MgO.png>]
+ [15 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_Ag100_LUMO_1.png> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2Hpc_on_Ag100_HOMO.PNG>] [16 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_MgO/21nm_MgO.png> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_MgO/10nm_MgO.png>]
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_MgO.PNG, id=282, 512.898pt x 512.898pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_MgO.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_MgO.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2Hpc_on_MgO.PNG  used on input line 51.
+(pdftex.def)             Requested size: 276.81505pt x 276.81992pt.
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_FFT.PNG, id=284, 368.87813pt x 368.87813pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_FFT.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_FFT.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_FFT.PNG  used on input line 56.
+(pdftex.def)             Requested size: 193.77356pt x 193.77084pt.
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_LEED.PNG, id=285, 344.706pt x 330.252pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_LEED.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_LEED.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_LEED.PNG  used on input line 56.
+(pdftex.def)             Requested size: 193.77356pt x 185.64534pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2Hpc_on_MgO.PNG>]
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_neg_400mV_rings.PNG, id=294, 371.88937pt x 371.88937pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_neg_400mV_rings.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_neg_400mV_rings.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_neg_400mV_rings.PNG  used on input line 58.
+(pdftex.def)             Requested size: 193.77356pt x 193.77513pt.
+<C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_700mV_rings.PNG, id=295, 371.88937pt x 371.88937pt>
+File: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_700mV_rings.PNG Graphic file (type png)
+<use C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_700mV_rings.PNG>
+Package pdftex.def Info: C:\Bac_Arbeit\ratumi_bac\bac_template\graphics\ready_images_phthalo\2HPc_on_MgO_700mV_rings.PNG  used on input line 58.
+(pdftex.def)             Requested size: 193.77356pt x 193.77513pt.
+) (c:/Bac_Arbeit\ratumi_bac\bac_template\content/6_disscussion.tex [18 <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_MgO_FFT.PNG> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_MgO_LEED.PNG> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_MgO_neg_400mV_rings.PNG> <C:/Bac_Arbeit/ratumi_bac/bac_template/graphics/ready_images_phthalo/2HPc_on_MgO_700mV_rings.PNG>]
 chapter 5.
-) [17
+) [19
 
 
-] [18
+] [20
 
 
 ]
@@ -2373,13 +2406,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 438.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 438.
- [19
+ [21
 
 
-] [20
+] [22
 
 
 ] (c:/Bac_Arbeit\ratumi_bac\bac_template\main.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2390,17 +2426,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45109 strings out of 479334
- 825478 string characters out of 2856134
- 1841647 words of memory out of 3000000
- 61363 multiletter control sequences out of 15000+200000
- 517576 words of font info for 247 fonts, out of 3000000 for 9000
+ 45168 strings out of 479334
+ 828324 string characters out of 2856134
+ 1842297 words of memory out of 3000000
+ 61401 multiletter control sequences out of 15000+200000
+ 518356 words of font info for 253 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,14n,131p,10660b,2418s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Lexsoko/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on c:/Bac_Arbeit\ratumi_bac\bac_template\main.pdf (24 pages, 11321964 bytes).
+Output written on c:/Bac_Arbeit\ratumi_bac\bac_template\main.pdf (26 pages, 21870172 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 58100 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 525 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 58133 words of extra memory for PDF output out of 61914 (max. 10000000)
 
