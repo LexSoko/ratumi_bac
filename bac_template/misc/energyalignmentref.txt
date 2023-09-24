@@ -1,0 +1,20 @@
+@article{ishii1999energy,
+  title={Energy level alignment and interfacial electronic structures at organic/metal and organic/organic interfaces},
+  author={Ishii, Hisao and Sugiyama, Kiyoshi and Ito, Eisuke and Seki, Kazuhiko},
+  journal={Advanced materials},
+  volume={11},
+  number={8},
+  pages={605--625},
+  year={1999},
+  publisher={Wiley Online Library}
+}
+@article{braun2009energy,
+  title={Energy-level alignment at organic/metal and organic/organic interfaces},
+  author={Braun, Slawomir and Salaneck, William R and Fahlman, Mats},
+  journal={Advanced materials},
+  volume={21},
+  number={14-15},
+  pages={1450--1472},
+  year={2009},
+  publisher={Wiley Online Library}
+}

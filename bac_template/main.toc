@@ -1,0 +1,50 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Fundumentals}{3}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Scanning Tunneling Microscopy (STM) }{3}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Theoretical Foundations of STM}{5}{section*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Low Energy Electrons Diffraction (LEED)}{7}{section*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Energy Alignment}{9}{section*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Push-Back}{11}{section*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Polarization}{11}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Charge-Transfer (CT)}{11}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Experimental Setup}{13}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Sample Preparation}{14}{section*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Silver (Ag)}{14}{section*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Magnesium Oxide (MgO)}{15}{section*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Pentacenequinone}{16}{section*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}2-Hydrogen Phthalocyanine}{17}{section*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Results}{19}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Pentacenequinone}{19}{section*.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}2-Hydrogen Phthalocyanin on Ag(100)}{20}{section*.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Magnesium-Oxide (MgO)}{22}{section*.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}2-Hydrogen Phthalocyanine on MgO}{23}{section*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Discussion}{27}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}2HPc/Ag(100)}{27}{section*.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}2HPc/MgO(100)/Ag(100)}{27}{section*.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.49}%

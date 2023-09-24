@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
+  \datalist[entry]{nty/global//global/global}
     \entry{cbai}{book}{}
       \name{author}{1}{}{%
         {{hash=6642209ba462567936c71432c1fd0003}{%
@@ -47,13 +47,94 @@
       \strng{editorfullhash}{c79e6794d92b660604601937a9b1c766}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{3-540-65715-0}
       \field{title}{Scanning Tunneling Microscopy and Its Application}
       \field{year}{1992}
+    \endentry
+    \entry{binnig1982surface}{article}{}
+      \name{author}{4}{}{%
+        {{hash=07fe47f4dc0fcdc50bf84d8d8642d07f}{%
+           family={Binnig},
+           familyi={B\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6dba3e79bc482e9dec283d092d9b9a0b}{%
+           family={Rohrer},
+           familyi={R\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3767b417b9f32928c3f0a23e37d98893}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Ch},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3a9d950d5aa5d5f5acd92701ef623126}{%
+           family={Weibel},
+           familyi={W\bibinitperiod},
+           given={Edmund},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{2e9505cecc079ce2dc68a9c745b34079}
+      \strng{fullhash}{71d262093ddf3d443199381c499ea2d0}
+      \strng{bibnamehash}{71d262093ddf3d443199381c499ea2d0}
+      \strng{authorbibnamehash}{71d262093ddf3d443199381c499ea2d0}
+      \strng{authornamehash}{2e9505cecc079ce2dc68a9c745b34079}
+      \strng{authorfullhash}{71d262093ddf3d443199381c499ea2d0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{number}{1}
+      \field{title}{Surface studies by scanning tunneling microscopy}
+      \field{volume}{49}
+      \field{year}{1982}
+      \field{pages}{57}
+      \range{pages}{1}
+    \endentry
+    \entry{braun2009energy}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e32b89f498e7ffefb22bb193f5e57030}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={Slawomir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=22693e715014a9fc56c365e12c0a8ef4}{%
+           family={Salaneck},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima R},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7f3450705fcb92e67cd0e69780d5aa5a}{%
+           family={Fahlman},
+           familyi={F\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c95364a43c9e2ec990d6aa91f03f7c6c}
+      \strng{fullhash}{0e2def4d4bedfffb0014b8d2c850f740}
+      \strng{bibnamehash}{0e2def4d4bedfffb0014b8d2c850f740}
+      \strng{authorbibnamehash}{0e2def4d4bedfffb0014b8d2c850f740}
+      \strng{authornamehash}{c95364a43c9e2ec990d6aa91f03f7c6c}
+      \strng{authorfullhash}{0e2def4d4bedfffb0014b8d2c850f740}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced materials}
+      \field{number}{14-15}
+      \field{title}{Energy-level alignment at organic/metal and organic/organic interfaces}
+      \field{volume}{21}
+      \field{year}{2009}
+      \field{pages}{1450\bibrangedash 1472}
+      \range{pages}{23}
     \endentry
     \entry{tunnelmatrix}{article}{}
       \name{author}{1}{}{%
@@ -71,8 +152,6 @@
       \strng{authorfullhash}{fcc29bfb5bf11322580291581b37331d}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review. B, Condensed matter}
@@ -105,8 +184,6 @@
       \strng{authorfullhash}{ac86f79394a1e26ef3b0d80080e8e78c}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{6}
@@ -126,6 +203,82 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRev.25.753
       \endverb
+    \endentry
+    \entry{egger2021charge}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=daf3c7c1cd9ab59051cfe9b87b4d24fc}{%
+           family={Egger},
+           familyi={E\bibinitperiod},
+           given={Larissa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9d4fb9405c3f06b1521c85519b39d14c}{%
+           family={Hollerer},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b393f4393547049d2c92aec528d3cd12}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Christian\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=92a58de3d466f33bd29a64463eebd310}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b896b828134ef816fcbdd31423bd81ef}{%
+           family={Hurdax},
+           familyi={H\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d93d80770ba940f0d27cd46048c840e0}{%
+           family={Haags},
+           familyi={H\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49d1d6198e7ad2840ce1219c1f4c75e1}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xiaosheng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b75f9a0eeccc371e0566bae3ab35c84e}{%
+           family={Gottwald},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=12e5fad17c5a2a2c425853b98cf20449}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59f431f32bc74a618d20167bb8331d47}{%
+           family={Soubatch},
+           familyi={S\bibinitperiod},
+           given={Serguei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{28d7733e4ad5ab37368d3d937e1fe642}
+      \strng{fullhash}{90e1f6ea3c5bff5b5a51899b024606c5}
+      \strng{bibnamehash}{64e31f76ebfbc8f81421379b1a72edf4}
+      \strng{authorbibnamehash}{64e31f76ebfbc8f81421379b1a72edf4}
+      \strng{authornamehash}{28d7733e4ad5ab37368d3d937e1fe642}
+      \strng{authorfullhash}{90e1f6ea3c5bff5b5a51899b024606c5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{number}{10}
+      \field{title}{Charge-Promoted Self-Metalation of Porphyrins on an Oxide Surface}
+      \field{volume}{60}
+      \field{year}{2021}
+      \field{pages}{5078\bibrangedash 5082}
+      \range{pages}{5}
     \endentry
     \entry{guilliatt1969lattice}{article}{}
       \name{author}{2}{}{%
@@ -151,8 +304,6 @@
       \strng{authorfullhash}{69c45f6f949dbef9351edc2501cde13f}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the Faraday Society}
@@ -161,6 +312,30 @@
       \field{year}{1969}
       \field{pages}{3328\bibrangedash 3333}
       \range{pages}{6}
+    \endentry
+    \entry{hollerercharge}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9d4fb9405c3f06b1521c85519b39d14c}{%
+           family={Hollerer},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Graz, Austria Institute of Physics}%
+      }
+      \strng{namehash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \strng{fullhash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \strng{bibnamehash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \strng{authorbibnamehash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \strng{authornamehash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \strng{authorfullhash}{9d4fb9405c3f06b1521c85519b39d14c}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Charge transfer through thin dielectric films: organic molecules on MgO (001)/Ag (001)/submitted Dr. rer. nat. of Michael Hollerer}
+      \field{year}{2019}
     \endentry
     \entry{Kano}{article}{}
       \name{author}{3}{}{%
@@ -188,8 +363,6 @@
       \strng{authorfullhash}{6527856d3d70578fa3fe03474ce5050d}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chem. Soc. Rev.}
@@ -226,8 +399,6 @@
       \strng{authorfullhash}{1fefef7eaa74142e021be86cc56fccb5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This timely text covers the theory and practice of surface and nanostructure determination by low-energy electron diffraction (LEED) and surface X-ray diffraction (SXRD): it is the first book on such quantitative structure analysis in over 30 years. It provides a detailed description of the theory, including cutting-edge developments and tested experimental methods. The focus is on quantitative techniques, while the qualitative interpretation of the LEED pattern without quantitative I(V) analysis is also included. Topics covered include the future study of nanoparticles, quasicrystals, thermal parameters, disorder and modulations of surfaces with LEED, with introductory sections enabling the non-specialist to follow all the concepts and applications discussed. With numerous colour figures throughout, this text is ideal for undergraduate and graduate students and researchers, whether experimentalists or theorists, in the fields of surface science, nanoscience and related technologies. It can serve as a textbook for graduate-level courses of one or two semesters.}
@@ -287,8 +458,6 @@
       \strng{authorfullhash}{cb3ceaff67660ba1c77840e34111d04d}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Pentacene is an important semiconductor in the field of organic electronics. In this work is presented an alternative synthesis procedure to obtain pentacene from 6,13-pentacenequinone as a precursor. Synthesis of pentacene was performed in two reactions, Diels-Adler cycloaddition of 6,13-pentacenequinone followed by 6,13-pentacenequinone reduction to pentacene, employing LiAlH4 as reducing agent. The products were characterized by Fourier Transform Infrared Spectroscopy (FTIR), 1H-Nuclear Magnetic Resonance Spectroscopy (1H-NMR), X-Ray Diffraction (XRD), Thermogravimetric Analysis (TGA) and Ultraviolet Visible Spectroscopy (UV-VIS). In this work, 6,13-pentacenequinone was synthetized with a high yield (55) using an alternative method. The optimization process resulted in an overall reduction of reaction time while exhibiting high yield. The method presented here provides an affordable pentacene synthesis route with high purity, which can be further applied for research and development of organic electronic applications.}
@@ -316,7 +485,6 @@
       }
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
       \field{title}{National Center for Biotechnology Information (2023). PubChem Compound Summary for CID 76415, 6,13-Pentacenequinone.}
       \verb{urlraw}
@@ -333,7 +501,6 @@
       }
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labeldatesource}{nodate}
       \field{labeltitlesource}{title}
       \field{title}{National Center for Biotechnology Information (2023). PubChem Compound Summary for CID 86280045, Phthalocyanine}
       \verb{urlraw}
@@ -370,8 +537,6 @@
       \strng{authorfullhash}{e3d875af4aae5d181f8152b91fdc5675}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{During the last decade, interest on the growth and self-assembly of organic molecular species on solid surfaces spread over the scientific community, largely motivated by the promise of cheap, flexible and tunable organic electronic and optoelectronic devices. These efforts lead to important advances in our understanding of the nature and strength of the non-bonding intermolecular interactions that control the assembly of the organic building blocks on solid surfaces, which have been recently reviewed in a number of excellent papers. To a large extent, such studies were possible because of a smart choice of model substrate-adsorbate systems where the molecule-substrate interactions were purposefully kept low, so that most of the observed supramolecular structures could be understood simply by considering intermolecular interactions, keeping the role of the surface always relatively small (although not completely negligible). On the other hand, the systems which are more relevant for the development of organic electronic devices include molecular species which are electron donors, acceptors or blends of donors and acceptors. Adsorption of such organic species on solid surfaces is bound to be accompanied by charge-transfer processes between the substrate and the adsorbates, and the physical and chemical properties of the molecules cannot be expected any longer to be the same as in solution phase. In recent years, a number of groups around the world have started tackling the problem of the adsorption, self- assembly and electronic and chemical properties of organic species which interact rather strongly with the surface, and for which charge-transfer must be considered. The picture that is emerging shows that charge transfer can lead to a plethora of new phenomena, from the development of delocalized band-like electron states at molecular overlayers, to the existence of new substrate-mediated intermolecular interactions or the strong modification of the chemical reactivity of the adsorbates. The aim of this review is to start drawing general conclusions and developing new concepts which will help the scientific community to proceed more efficiently towards the understanding of organic/inorganic interfaces in the strong interaction limit, where charge-transfer effects must be taken into consideration.}
@@ -393,6 +558,178 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0167572917300092
       \endverb
       \keyw{Organic adsorbates,Self-assembly,Charge transfer}
+    \endentry
+    \entry{pal2014morphology}{article}{}
+      \name{author}{6}{}{%
+        {{hash=75a64cb4db4650d62a95239507d915cf}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Jagriti},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0485e3ace534a2d7df2014a2a7eb553b}{%
+           family={Smerieri},
+           familyi={S\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffcf7f7961a151fd6953b20fbb958215}{%
+           family={Celasco},
+           familyi={C\bibinitperiod},
+           given={Edvige},
+           giveni={E\bibinitperiod}}}%
+        {{hash=379e8fbad921c6df95c7c8c70e0ec86f}{%
+           family={Savio},
+           familyi={S\bibinitperiod},
+           given={Letizia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d41c51e67dc32424b3840ae2a50b8c6a}{%
+           family={Vattuone},
+           familyi={V\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bf7da04ec043a0ff0b1347e0b3e60906}{%
+           family={Rocca},
+           familyi={R\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{b8876a45813a152169b446781818b9a9}
+      \strng{fullhash}{26356a03f9e91e5a07e3c5de864aa4ec}
+      \strng{bibnamehash}{279c50a7933bd006fb1b8f6dcf97100f}
+      \strng{authorbibnamehash}{279c50a7933bd006fb1b8f6dcf97100f}
+      \strng{authornamehash}{b8876a45813a152169b446781818b9a9}
+      \strng{authorfullhash}{26356a03f9e91e5a07e3c5de864aa4ec}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{12}
+      \field{title}{Morphology of monolayer MgO films on Ag (100): switching from corrugated islands to extended flat terraces}
+      \field{volume}{112}
+      \field{year}{2014}
+      \field{pages}{126102}
+      \range{pages}{1}
+    \endentry
+    \entry{database}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6f022fa0d897f97cc3d9f40eae1ab004}{%
+           family={Puschnig},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \strng{fullhash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \strng{bibnamehash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \strng{authorbibnamehash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \strng{authornamehash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \strng{authorfullhash}{6f022fa0d897f97cc3d9f40eae1ab004}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2021-05-26}
+      \field{title}{Organic Molecules Databse}
+    \endentry
+    \entry{savu2015fingerprint}{article}{}
+      \name{author}{8}{}{%
+        {{hash=9d18a804c39ee34dd2794563421bd56d}{%
+           family={Savu},
+           familyi={S\bibinitperiod},
+           given={Sabine-A},
+           giveni={S\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=e3e9f4202f3e5ef314e2949ef81885d0}{%
+           family={Biddau},
+           familyi={B\bibinitperiod},
+           given={Giulio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b426af53f40f596d9674571c19c3d4da}{%
+           family={Pardini},
+           familyi={P\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d9848ae7b749698223886af7286d4521}{%
+           family={Bula},
+           familyi={B\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2e9ad21b49af0ce3bb22f579a30bf511}{%
+           family={Bettinger},
+           familyi={B\bibinitperiod},
+           given={Holger\bibnamedelima F},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=741693a1b60db78d0800b96c77c310e4}{%
+           family={Draxl},
+           familyi={D\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f5bba503cddc309785a4281529c5e102}{%
+           family={Chassé},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1ec9b85f17f81d223521147eef4da45f}{%
+           family={Casu},
+           familyi={C\bibinitperiod},
+           given={M\bibnamedelima Benedetta},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b21e7e429589448cbc46c0a26d0d0ec5}
+      \strng{fullhash}{c8a8245beec2af6b1b8a5260d8e1b252}
+      \strng{bibnamehash}{ea7aac1cf9ecc73a50dde3a60ee706a8}
+      \strng{authorbibnamehash}{ea7aac1cf9ecc73a50dde3a60ee706a8}
+      \strng{authornamehash}{b21e7e429589448cbc46c0a26d0d0ec5}
+      \strng{authorfullhash}{c8a8245beec2af6b1b8a5260d8e1b252}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{number}{22}
+      \field{title}{Fingerprint of fractional charge transfer at the metal/organic interface}
+      \field{volume}{119}
+      \field{year}{2015}
+      \field{pages}{12538\bibrangedash 12544}
+      \range{pages}{7}
+    \endentry
+    \entry{sperl2011controlled}{article}{}
+      \name{author}{3}{}{%
+        {{hash=767daba6a7c7e74233491e40fd6ecb15}{%
+           family={Sperl},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16af96539f9eb5cf71222fa96608f779}{%
+           family={Kröger},
+           familyi={K\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fa7dc966d15902f40ea7bf28bb716fb7}{%
+           family={Berndt},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7a869dfb404cf7cffebc722ae178998}
+      \strng{fullhash}{a599bb81da17cc565f5d05f39adb65c7}
+      \strng{bibnamehash}{a599bb81da17cc565f5d05f39adb65c7}
+      \strng{authorbibnamehash}{a599bb81da17cc565f5d05f39adb65c7}
+      \strng{authornamehash}{f7a869dfb404cf7cffebc722ae178998}
+      \strng{authorfullhash}{a599bb81da17cc565f5d05f39adb65c7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{number}{50}
+      \field{title}{Controlled metalation of a single adsorbed phthalocyanine}
+      \field{volume}{23}
+      \field{year}{2011}
+      \field{pages}{5294\bibrangedash 5297}
+      \range{pages}{4}
     \endentry
     \entry{PhysRevLett}{article}{}
       \name{author}{2}{}{%
@@ -418,8 +755,6 @@
       \strng{authorfullhash}{19da315675f4240614f55c1453267a92}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{25}
@@ -438,6 +773,129 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.50.1998
+      \endverb
+    \endentry
+    \entry{thomas1990phthalocyanine}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0ce8e4d5f8b887db73ca064a2728fd44}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Arthur\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \strng{fullhash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \strng{bibnamehash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \strng{authorbibnamehash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \strng{authornamehash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \strng{authorfullhash}{0ce8e4d5f8b887db73ca064a2728fd44}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phthalocyanine research and applications}
+      \field{year}{1990}
+    \endentry
+    \entry{wang2012structures}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8f56a0b17db885429cbb1844baa99e0b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yongfeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6925c5dcdb9b5ed8f2a02432404549e7}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=16af96539f9eb5cf71222fa96608f779}{%
+           family={Kröger},
+           familyi={K\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fa7dc966d15902f40ea7bf28bb716fb7}{%
+           family={Berndt},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{1ffa59c23ceeec75e37d7867c3652ef2}
+      \strng{fullhash}{7b9dfb6b30f61a2ed5a5640f97f101a7}
+      \strng{bibnamehash}{7b9dfb6b30f61a2ed5a5640f97f101a7}
+      \strng{authorbibnamehash}{7b9dfb6b30f61a2ed5a5640f97f101a7}
+      \strng{authornamehash}{1ffa59c23ceeec75e37d7867c3652ef2}
+      \strng{authorfullhash}{7b9dfb6b30f61a2ed5a5640f97f101a7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIP Advances}
+      \field{number}{4}
+      \field{title}{Structures of phthalocyanine molecules on surfaces studied by STM}
+      \field{volume}{2}
+      \field{year}{2012}
+    \endentry
+    \entry{articlemgo}{article}{}
+      \name{author}{7}{}{%
+        {{hash=705ab500a80fc1e01e2b59f0e3e7841d}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Chaoqiang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3e50a823c6163ed8a32e607064abe0c2}{%
+           family={Que},
+           familyi={Q\bibinitperiod},
+           given={Yande},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c3f168805eb3b6943846da6f74fe06bd}{%
+           family={Zhuang},
+           familyi={Z\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=97396b63631c7b5155fe9e624a564950}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6c8f15dc81d2781ed06d460567067901}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yaping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ac04ba5b51b52b9391ef6ddb38e8ae0c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kedong},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f9112a00b48cf8f16708ddafc500e059}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Xudong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee2b7710628387e50a3c674547d041c6}
+      \strng{fullhash}{a2344df71127fa59f0a2798a61c947a4}
+      \strng{bibnamehash}{c8c74b28e03a2877c122741d7644630f}
+      \strng{authorbibnamehash}{c8c74b28e03a2877c122741d7644630f}
+      \strng{authornamehash}{ee2b7710628387e50a3c674547d041c6}
+      \strng{authorfullhash}{a2344df71127fa59f0a2798a61c947a4}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{month}{07}
+      \field{title}{Manipulating the Edge of a Two-Dimensional MgO Nanoisland}
+      \field{volume}{123}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.9b04906
       \endverb
     \endentry
   \enddatalist

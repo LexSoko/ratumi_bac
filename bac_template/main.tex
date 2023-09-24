@@ -155,7 +155,9 @@
 \usepackage{silence}
 \WarningFilter{latex}{Text page}
 \usepackage{lipsum}
-\usepackage[					% clean thesis style
+
+\usepackage[	
+    sorting=none,				% clean thesis style
 	figuresep=colon,%
 	sansserif=false, % true wäre CI standard
 	hangfigurecaption=false,%
@@ -167,9 +169,11 @@
 % 	bibsys=bibtex,%
 	bibsys=biber,%
 	bibfile=bib-refs,%
-	bibstyle=authoryear,%
+	bibstyle=numeric,
+    style=numeric,
+    backend=biber,%
 ]{cleanthesis}
-\let\cite\citet
+%\let\cite\citet
 \usepackage[hang]{footmisc}
 \setlength{\footnotemargin}{2mm}
 
@@ -400,6 +404,7 @@
 
 
 \pagestyle{plain}				% display just page numbers
+\input{content/0_title}
 \input{content/1_abstract}
 % ------------------------------------
 \cleardoublepage
